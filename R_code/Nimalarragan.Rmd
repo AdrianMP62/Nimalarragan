@@ -31,7 +31,7 @@ options(scipen=999)
 ```
 
 ```{r results="hide", warning=FALSE, message=FALSE}
-Packages <- c("vegan", "ggrepel", "ggplot2", "stringr", "reshape2", "knitr", "simba", "zoo", "car")
+Packages <- c("vegan", "data.table", "ggrepel", "ggplot2", "stringr", "reshape2", "knitr", "simba", "zoo", "car")
 lapply(Packages, library, character.only = TRUE)
 #source("./functions/bio_env_ext.R") #The Bio_env and bv_step_ext routines below comes from http://menugget.blogspot.com.au/2011/06/clarke-and-ainsworths-bioenv-and-bvstep.html
 ```
@@ -49,14 +49,56 @@ set.seed(1234)
 ```{r import-and-restructure-Warden-and-Gore-waterbird-data}
 input.data <- read.csv("./raw_data/Invert_matrix.csv")
 input.data$sample_long <- paste(input.data$SiteCode, input.data$Sample, sep = " ")
+input.data$taxon <- paste(input.data$LowestIDNC, input.data$LowestID, sep = " ")
 ```
 
 ##Create matrix
 ```{r create-matrix-for-ordination}
 invert.matrix <- melt(input.data) #melt data 
-  invert.matrix <- dcast(invert.matrix, sample_long ~ LowestID, fill="0") #create matrix from flat-file
+  invert.matrix <- dcast(invert.matrix, sample_long ~ taxon, fill="0") #create matrix from flat-file
   rownames(invert.matrix) <- invert.matrix [,1] #use first column (season) as row.names
   invert.matrix [,1] <- NULL #remove season column
   invert.matrix <- data.matrix(invert.matrix, rownames.force = NA) #convert data to numeric format
+  invert.matrix <- t(invert.matrix)
 write.csv(invert.matrix, "./outputs/invert_matrix.csv")
 ```
+
+##create plankton only dataset
+```{r}
+invert.matrix.P <- invert.matrix[, grep("P", colnames(invert.matrix))]
+invert.matrix.P <- invert.matrix.P[rowSums(invert.matrix.P)>0, ]
+write.csv(invert.matrix.P, "./outputs/invert_matrix_P.csv")
+invert.matrix.P <- subset(invert.matrix.P, row.names(invert.matrix.P) != c("IF999999 Turbellaria","JB999999 Bdelloidea","MM239999 Arrenuridae"))
+```
+
+```{r}
+#specify rows to remove
+remove.P <- c("IF999999 Turbellaria","JB999999 Bdelloidea","MM239999 Arrenuridae","MM999901 Acarina","QC0999A6 Bidessini","QC110499 Berosus sp.","QD099999 Ceratopogonidae","QH520199 Mesovelia sp.","QH670499 Anisops sp.","QO021099 Ischnura sp.","QO129999 Aeshnidae")
+#remove rows
+invert.matrix.Pred <- invert.matrix.P[!rownames(invert.matrix.P) %in% remove.P, ]
+```
+
+
+
+
+
+
+```{r}
+invert.spec.P <-specaccum(t(invert.matrix.P), method="rarefaction")
+invert.spec.P
+```
+
+
+```{r}
+invert.mds.P <- 
+```
+
+
+
+
+
+
+
+
+
+
