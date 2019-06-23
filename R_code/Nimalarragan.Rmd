@@ -45,11 +45,11 @@ set.seed(1234)
   
   
 ##Import data
-
 ```{r import-and-restructure-Warden-and-Gore-waterbird-data}
 input.data <- read.csv("./raw_data/Invert_matrix.csv")
 input.data$sample_long <- paste(input.data$SiteCode, input.data$Sample, sep = " ")
-input.data$taxon <- paste(input.data$LowestIDNC, input.data$LowestID, sep = " ")
+input.data$taxon <- paste(input.data$LowestIDNC, input.data$LowestID, sep = " ") 
+input.data$taxon <- gsub(" ", "_", input.data$taxon)
 ```
 
 ##Create matrix
@@ -59,24 +59,29 @@ invert.matrix <- melt(input.data) #melt data
   rownames(invert.matrix) <- invert.matrix [,1] #use first column (season) as row.names
   invert.matrix [,1] <- NULL #remove season column
   invert.matrix <- data.matrix(invert.matrix, rownames.force = NA) #convert data to numeric format
-  invert.matrix <- t(invert.matrix)
+  #invert.matrix <- t(invert.matrix)
 write.csv(invert.matrix, "./outputs/invert_matrix.csv")
 ```
 
 ##create plankton only dataset
 ```{r}
-invert.matrix.P <- invert.matrix[, grep("P", colnames(invert.matrix))]
-invert.matrix.P <- invert.matrix.P[rowSums(invert.matrix.P)>0, ]
-write.csv(invert.matrix.P, "./outputs/invert_matrix_P.csv")
-invert.matrix.P <- subset(invert.matrix.P, row.names(invert.matrix.P) != c("IF999999 Turbellaria","JB999999 Bdelloidea","MM239999 Arrenuridae"))
+invert.matrix.P <- invert.matrix[grep("P", row.names(invert.matrix)), ]
+invert.matrix.P <- invert.matrix.P[, colSums(invert.matrix.P)>0 ]
+#write.csv(invert.matrix.P, "./outputs/invert_matrix_P.csv")
 ```
 
 ```{r}
-#specify rows to remove
-remove.P <- c("IF999999 Turbellaria","JB999999 Bdelloidea","MM239999 Arrenuridae","MM999901 Acarina","QC0999A6 Bidessini","QC110499 Berosus sp.","QD099999 Ceratopogonidae","QH520199 Mesovelia sp.","QH670499 Anisops sp.","QO021099 Ischnura sp.","QO129999 Aeshnidae")
-#remove rows
-invert.matrix.Pred <- invert.matrix.P[!rownames(invert.matrix.P) %in% remove.P, ]
+#specify rows to remove - creating new data file
+invert.matrix.Pred <- subset(invert.matrix.P, select=-c(IF999999_Turbellaria,JB999999_Bdelloidea,MM239999_Arrenuridae,MM999901_Acarina,QC0999A6_Bidessini,QC110499_Berosus_sp.,QD099999_Ceratopogonidae,QH520199_Mesovelia_sp.,QH670499_Anisops_sp.,QO021099_Ischnura_sp.,QO129999_Aeshnidae))
+invert.matrix.Pred <- as.data.frame(invert.matrix.Pred) #convert to data.frame to allow calculations
+#merge Gerridae with Limnogonus and delete Gerridae
+invert.matrix.Pred$QH570399_Limnogonus_sp. <- pmax(invert.matrix.Pred$QH570399_Limnogonus_sp., invert.matrix.Pred$QH579999_Gerridae)
+invert.matrix.Pred$QH579999_Gerridae <- NULL #delete Gerridae
+#merge Pleidae with P.brunni and delete P. brunni
+invert.matrix.Pred$QH680199_Paraplea_sp. <- pmax(invert.matrix.Pred$QH680199_Paraplea_sp., invert.matrix.Pred$QH680101_Paraplea_brunni)
+invert.matrix.Pred$QH680101_Paraplea_brunni <- NULL #delete Gerridae
 ```
+
 
 
 
