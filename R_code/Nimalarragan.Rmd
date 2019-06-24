@@ -31,7 +31,7 @@ options(scipen=999)
 ```
 
 ```{r results="hide", warning=FALSE, message=FALSE}
-Packages <- c("vegan", "data.table", "ggrepel", "ggplot2", "stringr", "reshape2", "knitr", "simba", "zoo", "car")
+Packages <- c("vegan","cluster","data.table", "ggrepel", "ggplot2", "stringr", "reshape2", "knitr", "simba", "zoo", "car")
 lapply(Packages, library, character.only = TRUE)
 #source("./functions/bio_env_ext.R") #The Bio_env and bv_step_ext routines below comes from http://menugget.blogspot.com.au/2011/06/clarke-and-ainsworths-bioenv-and-bvstep.html
 ```
@@ -40,9 +40,50 @@ lapply(Packages, library, character.only = TRUE)
 set.seed(1234)
 ```
 
+#Ionic composition analysis
+```{r}
+#load data files
+MgL.data <- read.csv("FVS ionic compositions.csv", row.names=1)
+MgL.data <- MgL.data[, 1:8]
+
+Meq.data <- MgL.data
+Meq.data$Na <- Meq.data$Na*0.0435
+Meq.data$Ca <- Meq.data$Ca*0.0499
+Meq.data$Mg <- Meq.data$Mg*0.0823
+Meq.data$K <- Meq.data$K*0.0256
+Meq.data$Cl <- Meq.data$Cl*0.0282
+Meq.data$SO4 <- Meq.data$SO4*0.0208
+Meq.data$HCO3 <- Meq.data$HCO3*0.0164
+Meq.data$CO3 <- Meq.data$CO3*0.0333
+
+
+Totals.cations <- rowSums(Meq.data[,1:4])
+Totals.cations
+Totals.anions <- rowSums(Meq.data[,5:8])
+Totals.anions
+
+Balance <- (Totals.anions - Totals.cations)/Totals.anions
+Balance
+
+Meq.data$Napercent <- Meq.data$Na/Totals.cations*100
+Meq.data$Capercent <- Meq.data$Ca/Totals.cations*100
+Meq.data$Mgpercent <- Meq.data$Mg/Totals.cations*100
+Meq.data$Kpercent <- Meq.data$K/Totals.cations*100
+Meq.data$Clpercent <- Meq.data$Cl/Totals.anions*100
+Meq.data$SO4percent <- Meq.data$SO4/Totals.anions*100
+Meq.data$HCO3percent <- Meq.data$HCO3/Totals.anions*100
+Meq.data$CO3percent <- Meq.data$CO3/Totals.anions*100
+
+write.csv(Meq.data, "Meqdata3.csv")
+```
+
+
+
+
+
+
 
 #Analyses of invertebrate samples from Nimalarragan wetland north of Broome
-  
   
 ##Import data
 ```{r import-and-restructure-Warden-and-Gore-waterbird-data}
@@ -70,6 +111,7 @@ invert.matrix.P <- invert.matrix.P[, colSums(invert.matrix.P)>0 ]
 #write.csv(invert.matrix.P, "./outputs/invert_matrix_P.csv")
 ```
 
+#remove or merge rows
 ```{r}
 #specify rows to remove - creating new data file
 invert.matrix.Pred <- subset(invert.matrix.P, select=-c(IF999999_Turbellaria,JB999999_Bdelloidea,MM239999_Arrenuridae,MM999901_Acarina,QC0999A6_Bidessini,QC110499_Berosus_sp.,QD099999_Ceratopogonidae,QH520199_Mesovelia_sp.,QH670499_Anisops_sp.,QO021099_Ischnura_sp.,QO129999_Aeshnidae))
@@ -82,10 +124,21 @@ invert.matrix.Pred$QH680199_Paraplea_sp. <- pmax(invert.matrix.Pred$QH680199_Par
 invert.matrix.Pred$QH680101_Paraplea_brunni <- NULL #delete Gerridae
 ```
 
+#create dissimilarity matrix
+```{r}
+invert.sim.P <- vegdist(invert.matrix.P, method="bray")
+invert.sim.P
+```
 
+```{r}
+invert.clus.P <- hclust(invert.sim.P, method = "complete")
+plot(invert.clus.P)
+```
 
-
-
+```{r}
+invert.clus.P <- agnes(invert.sim.P, metric = "bray", method = "flexible", par.method = 0.1)
+plot(invert.clus.P)
+```
 
 
 ```{r}
