@@ -78,11 +78,6 @@ write.csv(Meq.data, "Meqdata3.csv")
 ```
 
 
-
-
-
-
-
 #Analyses of invertebrate samples from Nimalarragan wetland north of Broome
   
 ##Import data
@@ -104,15 +99,19 @@ invert.matrix <- melt(input.data) #melt data
 write.csv(invert.matrix, "./outputs/invert_matrix.csv")
 ```
 
-##create plankton only dataset
+##create plankton and benthic only matrices
 ```{r}
 invert.matrix.P <- invert.matrix[grep("P", row.names(invert.matrix)), ]
-invert.matrix.P <- invert.matrix.P[, colSums(invert.matrix.P)>0 ]
-#write.csv(invert.matrix.P, "./outputs/invert_matrix_P.csv")
+  invert.matrix.P <- invert.matrix.P[, colSums(invert.matrix.P)>0 ]
+  write.csv(invert.matrix.P, "./outputs/invert_matrix_P.csv")
+invert.matrix.B <- invert.matrix[grep("B", row.names(invert.matrix)), ]
+  invert.matrix.B <- invert.matrix.B[, colSums(invert.matrix.B)>0 ]
+  write.csv(t(invert.matrix.B), "./outputs/invert_matrix_B.csv")
 ```
 
-#remove or merge rows
+#remove or merge rows to create taxonomically consistent datasets
 ```{r}
+#PLANKTON
 #specify rows to remove - creating new data file
 invert.matrix.Pred <- subset(invert.matrix.P, select=-c(IF999999_Turbellaria,JB999999_Bdelloidea,MM239999_Arrenuridae,MM999901_Acarina,QC0999A6_Bidessini,QC110499_Berosus_sp.,QD099999_Ceratopogonidae,QH520199_Mesovelia_sp.,QH670499_Anisops_sp.,QO021099_Ischnura_sp.,QO129999_Aeshnidae))
 invert.matrix.Pred <- as.data.frame(invert.matrix.Pred) #convert to data.frame to allow calculations
@@ -122,22 +121,49 @@ invert.matrix.Pred$QH579999_Gerridae <- NULL #delete Gerridae
 #merge Pleidae with P.brunni and delete P. brunni
 invert.matrix.Pred$QH680199_Paraplea_sp. <- pmax(invert.matrix.Pred$QH680199_Paraplea_sp., invert.matrix.Pred$QH680101_Paraplea_brunni)
 invert.matrix.Pred$QH680101_Paraplea_brunni <- NULL #delete Gerridae
+
+#BENTHIC
+#specify rows to remove - creating new data file
+invert.matrix.Bred <- subset(invert.matrix.B,select=-c(II999999_Nematoda,MM9999A1_Oribatida_sp.,MM9999A2_Mesostigmata,MM9999A6_Trombidioidea,QC0999A6_Bidessini,QC110499_Berosus_sp.,QC119999_Hydrophilidae,QD070799_Culex_sp.,QD099999_Ceratopogonidae,QH610299_Ranatra_sp.,QH670499_Anisops_sp.,QH670499_Anisops_sp.,QO179999_Libellulidae))
+invert.matrix.Bred <- as.data.frame(invert.matrix.Bred) #convert to data.frame to allow calculations
+#merge Limbodessus sp. and L. compactus
+invert.matrix.Bred$QC091099_Limbodessus_sp. <- pmax(invert.matrix.Bred$QC091099_Limbodessus_sp., invert.matrix.Bred$QC091001_Limbodessus_compactus)
+invert.matrix.Bred$QC091099_Limbodessus_sp. <- NULL #delete Limbodessus compactus
+#merge Cybister sp. and C. tripunctatus
+invert.matrix.Bred$QC093699_Cybister_sp. <- pmax(invert.matrix.Bred$QC093699_Cybister_sp., invert.matrix.Bred$QC093606_Cybister_tripunctatus_temnenkii)
+invert.matrix.Bred$QC093606_Cybister_tripunctatus_temnenkii <- NULL #delete Cybister tripunctatus
+#merge Tramea with tramea stenoloba/loewii
+invert.matrix.Bred$QO172899_Tramea_sp. <- pmax(invert.matrix.Bred$QO172899_Tramea_sp., invert.matrix.Bred$QO1728A0_Tramea_stenoloba_loewii)
+invert.matrix.Bred$QO1728A0_Tramea_stenoloba_loewii <- NULL #delete Tramea stenoloba-loewii
+#merge naucoris with N. opacus
+invert.matrix.Bred$QH660199_Naucoris_sp. <- pmax(invert.matrix.Bred$QH660199_Naucoris_sp., invert.matrix.Bred$QH660103_Naucoris_subopacus)
+invert.matrix.Bred$QH660103_Naucoris_subopacus <- NULL #delete Naucoris_subopacus
+#merge Gerridae with Limnogonus and L. fossarum giluy
+invert.matrix.Bred$QH570399_Limnogonus_sp. <- pmax(invert.matrix.Bred$QH570399_Limnogonus_sp., invert.matrix.Bred$QH579999_Gerridae,invert.matrix.Bred$QH570301_Limnogonus_fossarum_gilguy)
+invert.matrix.Bred$QH579999_Gerridae <- NULL #delete Gerridae
+invert.matrix.Bred$QH570301_Limnogonus_fossarum_gilguy <- NULL #remove Limnogonus_fossarum_gilguy
+#merge naucoris with N. opacus
+invert.matrix.Bred$QH560199_Microvelia_sp. <- pmax(invert.matrix.Bred$QH560199_Microvelia_sp., invert.matrix.Bred$QH560117_Microvelia_douglasi)
+invert.matrix.Bred$QH560117_Microvelia_douglasi <- NULL #delete Microvelia douglasi
+#merge Enochrus sp. with E. deserticola
+invert.matrix.Bred$QC111199_Enochrus_sp. <- pmax(invert.matrix.Bred$QC111199_Enochrus_sp., invert.matrix.Bred$QC111105_Enochrus_deserticola)
+invert.matrix.Bred$QC111105_Enochrus_deserticola <- NULL #delete Enochrus deserticola
 ```
 
-#create dissimilarity matrix
+#create dissimilarity matrices
 ```{r}
 invert.sim.P <- vegdist(invert.matrix.P, method="bray")
 invert.sim.P
+invert.sim.B <- vegdist(invert.matrix.B, method="bray")
+invert.sim.B
 ```
 
+#cluster analyses
 ```{r}
-invert.clus.P <- hclust(invert.sim.P, method = "complete")
-plot(invert.clus.P)
-```
-
-```{r}
-invert.clus.P <- agnes(invert.sim.P, metric = "bray", method = "flexible", par.method = 0.1)
-plot(invert.clus.P)
+invert.clus.P <- agnes(invert.sim.P, metric = "bray", method = "average")
+plot(invert.clus.P, title = NULL)
+invert.clus.B <- agnes(invert.sim.B, metric = "bray", method = "average")
+plot(invert.clus.B)
 ```
 
 
@@ -145,14 +171,6 @@ plot(invert.clus.P)
 invert.spec.P <-specaccum(t(invert.matrix.P), method="rarefaction")
 invert.spec.P
 ```
-
-
-```{r}
-invert.mds.P <- 
-```
-
-
-
 
 
 

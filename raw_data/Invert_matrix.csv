@@ -1,78 +1,36 @@
-﻿Family,LowestID,LowestIDNC,SiteCode,Date,Sample,H
--,Acarina,MM999901,NWS006,10/05/2018,P,1
-Aeshnidae,Aeshnidae,QO129999,NWS002,8/05/2018,P,1
-Aeshnidae,Aeshnidae,QO129999,NWS003,9/05/2018,P,1
-Naididae,Allonais inaequalis,LO050404,NWS002,8/05/2018,B,1
-Naididae,Allonais inaequalis,LO050404,NWS002,8/05/2018,P,1
-Naididae,Allonais inaequalis,LO050404,NWS004,9/05/2018,B,1
-Naididae,Allonais inaequalis,LO050404,NWS005,10/05/2018,B,1
-Naididae,Allonais inaequalis,LO050404,NWS005,10/05/2018,P,1
-Naididae,Allonais ranauana,LO050402,NWS001,8/05/2018,P,1
-Naididae,Allonais ranauana,LO050402,NWS002,8/05/2018,B,1
-Naididae,Allonais ranauana,LO050402,NWS002,8/05/2018,P,1
-Naididae,Allonais ranauana,LO050402,NWS003,9/05/2018,P,1
-Naididae,Allonais ranauana,LO050402,NWS004,9/05/2018,B,1
-Naididae,Allonais ranauana,LO050402,NWS004,9/05/2018,P,1
-Naididae,Allonais ranauana,LO050402,NWS006,10/05/2018,P,1
-Aeshnidae,Anax papuensis,QO121204,NWS001,8/05/2018,B,1
-Aeshnidae,Anax papuensis,QO121204,NWS002,8/05/2018,B,1
-Aeshnidae,Anax papuensis,QO121204,NWS003,9/05/2018,B,1
-Aeshnidae,Anax papuensis,QO121204,NWS004,9/05/2018,B,1
-Aeshnidae,Anax papuensis,QO121204,NWS004,9/05/2018,P,1
-Notonectidae,Anisops nodulatus,QH670419,NWS003,9/05/2018,B,1
-Notonectidae,Anisops nodulatus,QH670419,NWS004,9/05/2018,B,1
-Notonectidae,Anisops nodulatus,QH670419,NWS006,10/05/2018,P,1
-Notonectidae,Anisops nodulatus,QH670419,NWS006,10/05/2018,B,1
-Notonectidae,Anisops semitus,QH670425,NWS001,8/05/2018,P,1
-Notonectidae,Anisops semitus,QH670425,NWS001,8/05/2018,B,1
-Notonectidae,Anisops semitus,QH670425,NWS004,9/05/2018,B,1
-Notonectidae,Anisops sp.,QH670499,NWS001,8/05/2018,B,1
-Notonectidae,Anisops sp.,QH670499,NWS002,8/05/2018,B,1
-Notonectidae,Anisops sp.,QH670499,NWS003,9/05/2018,P,1
-Notonectidae,Anisops sp.,QH670499,NWS004,9/05/2018,P,1
-Notonectidae,Anisops sp.,QH670499,NWS005,10/05/2018,P,1
-Notonectidae,Anisops sp.,QH670499,NWS005,10/05/2018,B,1
-Culicidae,Anopheles (Anopheles) bancroftii,QD070106,NWS005,10/05/2018,P,1
-Culicidae,Anopheles hilli,QD070114,NWS001,8/05/2018,P,1
-Culicidae,Anopheles sp.,QD070199,NWS001,8/05/2018,B,1
-Culicidae,Anopheles sp.,QD070199,NWS006,10/05/2018,B,1
-Cyclopidae,Apocyclops dengizicus,OJ311201,NWS002,8/05/2018,B,1
-Arcellidae,Arcella bathystoma,BP010109,NWS005,10/05/2018,P,1
+Family,LowestID,LowestIDNC,SiteCode,Date,Sample,H
 Arcellidae,Arcella discoides,BP010102,NWS005,10/05/2018,P,1
-Arrenuridae,Arrenuridae,MM239999,NWS004,9/05/2018,P,1
-Arrenuridae,Arrenurus (Brevicaudaturus) multicornutus,MM230115,NWS005,10/05/2018,B,1
-Arrenuridae,Arrenurus (Brevicaudaturus) multicornutus,MM230115,NWS005,10/05/2018,P,1
-Arrenuridae,Arrenurus (Micruracarus) sp. 29 = MAN1,MM2301E3,NWS001,8/05/2018,P,1
-Arrenuridae,Arrenurus (Micruracarus) sp. 29 = MAN1,MM2301E3,NWS002,8/05/2018,P,1
-Arrenuridae,Arrenurus (Micruracarus) sp. 29 = MAN1,MM2301E3,NWS002,8/05/2018,B,1
-Arrenuridae,Arrenurus (Micruracarus) sp. 29 = MAN1,MM2301E3,NWS003,9/05/2018,B,1
-Arrenuridae,Arrenurus (Micruracarus) sp. 29 = MAN1,MM2301E3,NWS003,9/05/2018,P,1
-Arrenuridae,Arrenurus (Micruracarus) sp. 29 = MAN1,MM2301E3,NWS004,9/05/2018,B,1
-Arrenuridae,Arrenurus (Micruracarus) sp. 29 = MAN1,MM2301E3,NWS005,10/05/2018,P,1
-Arrenuridae,Arrenurus (Micruracarus) sp. 29 = MAN1,MM2301E3,NWS006,10/05/2018,B,1
-Assiminaeidae,Assiminaeidae,KG219999,NWS003,9/05/2018,B,1
-Assiminaeidae,Assiminaeidae,KG219999,NWS003,9/05/2018,P,1
-Assiminaeidae,Assiminaeidae,KG219999,NWS004,9/05/2018,B,1
+Arcellidae,Arcella bathystoma,BP010109,NWS005,10/05/2018,P,1
+Centropyxidae,Centropyxis aculeata,BP020101,NWS005,10/05/2018,P,1
+Centropyxidae,Centropyxis ecornis,BP020105,NWS005,10/05/2018,P,1
+Centropyxidae,Centropyxis platystoma,BP020106,NWS005,10/05/2018,P,1
+Centropyxidae,Centropyxis cf. aerophila,BP0201B5,NWS005,10/05/2018,P,1
+Difflugiidae,Difflugia gramen,BP030101,NWS005,10/05/2018,P,1
+Lesquereusidae,Netzelia tuberculata,BP070201,NWS004,9/05/2018,P,1
+Lesquereusidae,Netzelia tuberculata,BP070201,NWS005,10/05/2018,P,1
+Lesquereusidae,Netzelia corona,BP070202,NWS005,10/05/2018,P,1
+Hydridae,Hydra sp.,IB010199,NWS002,8/05/2018,P,1
+Hydridae,Hydra sp.,IB010199,NWS003,9/05/2018,P,1
+Hydridae,Hydra sp.,IB010199,NWS004,9/05/2018,B,1
+Hydridae,Hydra sp.,IB010199,NWS004,9/05/2018,P,1
+Hydridae,Hydra sp.,IB010199,NWS005,10/05/2018,P,1
+Hydridae,Hydra sp.,IB010199,NWS006,10/05/2018,B,1
+-,Turbellaria,IF999999,NWS002,8/05/2018,P,1
+-,Turbellaria,IF999999,NWS004,9/05/2018,P,1
+-,Turbellaria,IF999999,NWS005,10/05/2018,P,1
+-,Nematoda,II999999,NWS002,8/05/2018,B,1
+-,Nematoda,II999999,NWS003,9/05/2018,B,1
+-,Nematoda,II999999,NWS006,10/05/2018,B,1
 -,Bdelloidea,JB999999,NWS003,9/05/2018,P,1
 -,Bdelloidea,JB999999,NWS004,9/05/2018,P,1
 -,Bdelloidea,JB999999,NWS005,10/05/2018,P,1
 -,Bdelloidea,JB999999,NWS006,10/05/2018,P,1
-Hydrophilidae,Berosus aquilo,QC110405,NWS001,8/05/2018,B,1
-Hydrophilidae,Berosus aquilo,QC110405,NWS001,8/05/2018,P,1
-Hydrophilidae,Berosus australiae,QC110401,NWS001,8/05/2018,B,1
-Hydrophilidae,Berosus australiae,QC110401,NWS002,8/05/2018,B,1
-Hydrophilidae,Berosus australiae,QC110401,NWS002,8/05/2018,P,1
-Hydrophilidae,Berosus australiae,QC110401,NWS004,9/05/2018,B,1
-Hydrophilidae,Berosus australiae,QC110401,NWS006,10/05/2018,P,1
-Hydrophilidae,Berosus australiae,QC110401,NWS006,10/05/2018,B,1
-Hydrophilidae,Berosus nicholasi,QC110419,NWS001,8/05/2018,P,1
-Hydrophilidae,Berosus nicholasi,QC110419,NWS001,8/05/2018,B,1
-Hydrophilidae,Berosus pulchellus,QC110422,NWS001,8/05/2018,B,1
-Hydrophilidae,Berosus sp.,QC110499,NWS002,8/05/2018,B,1
-Hydrophilidae,Berosus sp.,QC110499,NWS003,9/05/2018,B,1
-Hydrophilidae,Berosus sp.,QC110499,NWS004,9/05/2018,P,1
-Dytiscidae,Bidessini,QC0999A6,NWS001,8/05/2018,B,1
-Dytiscidae,Bidessini,QC0999A6,NWS001,8/05/2018,P,1
+Flosculariidae,Ptygura sp.,JF030599,NWS004,9/05/2018,P,1
+Testudinellidae,Testudinella patina,JF050201,NWS002,8/05/2018,P,1
+Testudinellidae,Testudinella patina,JF050201,NWS003,9/05/2018,P,1
+Testudinellidae,Testudinella patina,JF050201,NWS004,9/05/2018,P,1
+Testudinellidae,Testudinella patina,JF050201,NWS005,10/05/2018,P,1
+Testudinellidae,Testudinella insinuata,JF050202,NWS004,9/05/2018,P,1
 Brachionidae,Brachionus angularis,JP020201,NWS004,9/05/2018,P,1
 Brachionidae,Brachionus angularis,JP020201,NWS005,10/05/2018,P,1
 Brachionidae,Brachionus angularis,JP020201,NWS006,10/05/2018,P,1
@@ -83,235 +41,19 @@ Brachionidae,Brachionus quadridentatus,JP020220,NWS005,10/05/2018,P,1
 Brachionidae,Brachionus quadridentatus minor,JP020232,NWS003,9/05/2018,P,1
 Brachionidae,Brachionus quadridentatus minor,JP020232,NWS004,9/05/2018,P,1
 Brachionidae,Brachionus quadridentatus minor,JP020232,NWS005,10/05/2018,P,1
-Candonidae,Candonidae,OH079999,NWS003,9/05/2018,B,1
-Centropyxidae,Centropyxis aculeata,BP020101,NWS005,10/05/2018,P,1
-Centropyxidae,Centropyxis cf. aerophila,BP0201B5,NWS005,10/05/2018,P,1
-Centropyxidae,Centropyxis ecornis,BP020105,NWS005,10/05/2018,P,1
-Centropyxidae,Centropyxis platystoma,BP020106,NWS005,10/05/2018,P,1
-Notommatidae,Cephalodella forficula,JP130202,NWS004,9/05/2018,P,1
-Notommatidae,Cephalodella forficula,JP130202,NWS006,10/05/2018,P,1
-Ceratopogonidae,Ceratopogonidae,QD099999,NWS003,9/05/2018,P,1
-Ceratopogonidae,Ceratopogonidae,QD099999,NWS005,10/05/2018,B,1
-Ceratopogonidae,Ceratopogonidae sp. KMS1 (?Bezzia),QD0999B2,NWS002,8/05/2018,B,1
-Ceratopogonidae,Ceratopogonidae sp. KMS2 (?Monohelea),QD0999B3,NWS001,8/05/2018,B,1
-Ceratopogonidae,Ceratopogonidae sp. KMS2 (?Monohelea),QD0999B3,NWS002,8/05/2018,B,1
-Ceratopogonidae,Ceratopogonidae sp. KMS8 (?Culicoides),QD0999B9,NWS002,8/05/2018,B,1
-Ceratopogonidae,Ceratopogonidae sp. KMS9 (?Nilobezzia),QD0999C0,NWS001,8/05/2018,B,1
-Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS003,9/05/2018,B,1
-Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS003,9/05/2018,P,1
-Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS004,9/05/2018,B,1
-Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS005,10/05/2018,P,1
-Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS005,10/05/2018,B,1
-Daphniidae,Ceriodaphnia cornuta,OG040101,NWS002,8/05/2018,P,1
-Daphniidae,Ceriodaphnia cornuta,OG040101,NWS003,9/05/2018,P,1
-Daphniidae,Ceriodaphnia cornuta,OG040101,NWS004,9/05/2018,P,1
-Daphniidae,Ceriodaphnia cornuta,OG040101,NWS005,10/05/2018,P,1
-Daphniidae,Ceriodaphnia sp.,OG040199,NWS003,9/05/2018,P,1
-Daphniidae,Ceriodaphnia sp.,OG040199,NWS004,9/05/2018,P,1
-Daphniidae,Ceriodaphnia sp.,OG040199,NWS005,10/05/2018,P,1
-Chaoboridae,Chaoboridae,QD059999,NWS005,10/05/2018,B,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS002,8/05/2018,B,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS002,8/05/2018,P,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS003,9/05/2018,B,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS003,9/05/2018,P,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS004,9/05/2018,B,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS004,9/05/2018,P,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS005,10/05/2018,B,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS005,10/05/2018,P,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS006,10/05/2018,B,1
-Chironomidae,Chironomus aff. alternans (V24) (CB),QDAI04A0,NWS006,10/05/2018,P,1
-Cyprididae,Chrissia sp.,OH083699,NWS006,10/05/2018,B,1
-Chydoridae,Chydorus cf. sphaericus,OG0309A5,NWS001,8/05/2018,B,1
-Baetidae,Cloeon sp.,QE020299,NWS001,8/05/2018,P,1
-Baetidae,Cloeon sp.,QE020299,NWS001,8/05/2018,B,1
-Baetidae,Cloeon sp.,QE020299,NWS002,8/05/2018,P,1
-Baetidae,Cloeon sp.,QE020299,NWS002,8/05/2018,B,1
-Baetidae,Cloeon sp.,QE020299,NWS003,9/05/2018,P,1
-Baetidae,Cloeon sp.,QE020299,NWS003,9/05/2018,B,1
-Baetidae,Cloeon sp.,QE020299,NWS004,9/05/2018,P,1
-Baetidae,Cloeon sp.,QE020299,NWS004,9/05/2018,B,1
-Baetidae,Cloeon sp.,QE020299,NWS005,10/05/2018,P,1
-Baetidae,Cloeon sp.,QE020299,NWS005,10/05/2018,B,1
-Baetidae,Cloeon sp.,QE020299,NWS006,10/05/2018,B,1
-Baetidae,Cloeon sp.,QE020299,NWS006,10/05/2018,P,1
-Hydrophilidae,Coelostoma fabricii,QC112001,NWS001,8/05/2018,B,1
+Brachionidae,Platyias quadricornis,JP020601,NWS004,9/05/2018,P,1
 Lepadellidae,Colurella adriatica,JP030101,NWS005,10/05/2018,P,1
-Libellulidae,Crocothemis nigrifrons,QO170601,NWS004,9/05/2018,B,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS001,8/05/2018,P,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS001,8/05/2018,B,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS002,8/05/2018,P,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS002,8/05/2018,B,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS003,9/05/2018,P,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS003,9/05/2018,B,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS004,9/05/2018,P,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS004,9/05/2018,B,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS005,10/05/2018,P,1
-Culicidae,Culex (Culex) annulirostris,QD070709,NWS005,10/05/2018,B,1
-Culicidae,Culex (Lophoceraomyia) sp.,QD0707A8,NWS003,9/05/2018,P,1
-Culicidae,Culex (Lophoceraomyia) sp.,QD0707A8,NWS005,10/05/2018,B,1
-Culicidae,Culex sp.,QD070799,NWS006,10/05/2018,B,1
-Ceratopogonidae,Culicoides sp.,QD090899,NWS003,9/05/2018,B,1
-Ceratopogonidae,Culicoides sp.,QD090899,NWS004,9/05/2018,B,1
-Dytiscidae,Cybister sp.,QC093699,NWS002,8/05/2018,B,1
-Dytiscidae,Cybister sp.,QC093699,NWS004,9/05/2018,B,1
-Dytiscidae,Cybister sp.,QC093699,NWS006,10/05/2018,B,1
-Dytiscidae,Cybister tripunctatus temnenkii,QC093606,NWS005,10/05/2018,B,1
-Cyprididae,Cypretta sp.,OH080599,NWS002,8/05/2018,B,1
-Cyprididae,Cypretta sp.,OH080599,NWS003,9/05/2018,B,1
-Cyprididae,Cypretta sp.,OH080599,NWS004,9/05/2018,B,1
-Cyprididae,Cypretta sp.,OH080599,NWS005,10/05/2018,P,1
-Cyprididae,Cypretta sp.,OH080599,NWS006,10/05/2018,B,1
-Cyprididae,Cypretta sp.,OH080599,NWS006,10/05/2018,P,1
-Cyprididae,Cypricercus sp.,OH082199,NWS003,9/05/2018,B,1
-Cyprididae,Cyprinotus cingalensis,OH080604,NWS001,8/05/2018,B,1
-Cyprididae,Cyprinotus cingalensis,OH080604,NWS001,8/05/2018,P,1
-Cyprididae,Cypris sp.,OH082499,NWS006,10/05/2018,P,1
-Cyprididae,Cypris sp.,OH082499,NWS006,10/05/2018,B,1
-Ceratopogonidae,Dasyheleinae,QD0999A2,NWS001,8/05/2018,P,1
-Ceratopogonidae,Dasyheleinae,QD0999A2,NWS001,8/05/2018,B,1
-Ceratopogonidae,Dasyheleinae,QD0999A2,NWS003,9/05/2018,B,1
-Ceratopogonidae,Dasyheleinae,QD0999A2,NWS003,9/05/2018,P,1
-Ceratopogonidae,Dasyheleinae,QD0999A2,NWS005,10/05/2018,B,1
-Ceratopogonidae,Dasyheleinae,QD0999A2,NWS006,10/05/2018,B,1
-Naididae,Dero furcata,LO050203,NWS001,8/05/2018,B,1
-Naididae,Dero furcata,LO050203,NWS003,9/05/2018,B,1
-Naididae,Dero furcata,LO050203,NWS004,9/05/2018,B,1
-Naididae,Dero furcata,LO050203,NWS006,10/05/2018,B,1
-Naididae,Dero furcata,LO050203,NWS006,10/05/2018,P,1
-Naididae,Dero nivea,LO050202,NWS005,10/05/2018,B,1
-Naididae,Dero nivea,LO050202,NWS005,10/05/2018,P,1
-Naididae,Dero pectinata,LO050205,NWS002,8/05/2018,B,1
-Naididae,Dero pectinata,LO050205,NWS002,8/05/2018,P,1
-Naididae,Dero pectinata,LO050205,NWS003,9/05/2018,B,1
-Naididae,Dero pectinata,LO050205,NWS004,9/05/2018,B,1
-Naididae,Dero pectinata,LO050205,NWS004,9/05/2018,P,1
-Sididae,Diaphanosoma australiensis,OG010101,NWS002,8/05/2018,P,1
-Sididae,Diaphanosoma australiensis,OG010101,NWS003,9/05/2018,P,1
-Sididae,Diaphanosoma australiensis,OG010101,NWS004,9/05/2018,P,1
-Sididae,Diaphanosoma australiensis,OG010101,NWS005,10/05/2018,P,1
-Sididae,Diaphanosoma australiensis,OG010101,NWS006,10/05/2018,P,1
-Difflugiidae,Difflugia gramen,BP030101,NWS005,10/05/2018,P,1
-Libellulidae,Diplacodes bipunctata,QO170701,NWS001,8/05/2018,B,1
-Libellulidae,Diplacodes bipunctata,QO170701,NWS001,8/05/2018,P,1
-Libellulidae,Diplacodes bipunctata,QO170701,NWS005,10/05/2018,B,1
-Libellulidae,Diplacodes bipunctata,QO170701,NWS006,10/05/2018,B,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS001,8/05/2018,B,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS001,8/05/2018,P,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS002,8/05/2018,B,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS003,9/05/2018,P,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS003,9/05/2018,B,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS004,9/05/2018,P,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS004,9/05/2018,B,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS005,10/05/2018,B,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS005,10/05/2018,P,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS006,10/05/2018,B,1
-Belostomatidae,Diplonychus sp.,QH620299,NWS006,10/05/2018,P,1
-Chydoridae,Dunhevedia crassa,OG031201,NWS001,8/05/2018,B,1
-Chydoridae,Dunhevedia crassa,OG031201,NWS003,9/05/2018,P,1
-Chydoridae,Dunhevedia crassa,OG031201,NWS004,9/05/2018,P,1
-Chydoridae,Dunhevedia crassa,OG031201,NWS005,10/05/2018,P,1
-Chydoridae,Dunhevedia crassa,OG031201,NWS006,10/05/2018,P,1
-Crambidae,Elophila sp. (Kim),QL0199B6,NWS003,9/05/2018,P,1
-Crambidae,Elophila sp. (Kim),QL0199B6,NWS004,9/05/2018,P,1
-Crambidae,Elophila sp. (Kim),QL0199B6,NWS004,9/05/2018,B,1
-Crambidae,Elophila sp. (Kim),QL0199B6,NWS005,10/05/2018,P,1
--,Eniochthoniidae - Acarina KMS4 (Oribatida),MM3999A0,NWS004,9/05/2018,B,1
--,Eniochthoniidae - Acarina KMS4 (Oribatida),MM3999A0,NWS005,10/05/2018,B,1
-Hydrophilidae,Enochrus deserticola,QC111105,NWS001,8/05/2018,B,1
-Hydrophilidae,Enochrus sp.,QC111199,NWS002,8/05/2018,B,1
-Ephydridae,Ephydridae,QD789999,NWS003,9/05/2018,P,1
-Ephydridae,Ephydridae,QD789999,NWS004,9/05/2018,B,1
-Ephydridae,Ephydridae,QD789999,NWS004,9/05/2018,P,1
+Lepadellidae,Lepadella oblonga,JP030223,NWS001,8/05/2018,P,1
+Lepadellidae,Lepadella oblonga,JP030223,NWS004,9/05/2018,P,1
+Lepadellidae,Lepadella oblonga,JP030223,NWS005,10/05/2018,P,1
+Lepadellidae,Lepadella oblonga,JP030223,NWS006,10/05/2018,P,1
+Lepadellidae,Lepadella patella,JP030224,NWS006,10/05/2018,P,1
+Lepadellidae,Lepadella rhomboides,JP030230,NWS003,9/05/2018,P,1
+Lepadellidae,Lepadella rhomboides,JP030230,NWS004,9/05/2018,P,1
+Lepadellidae,Lepadella rhomboides,JP030230,NWS006,10/05/2018,P,1
 Euchlanidae,Euchlanis dilatata,JP060101,NWS003,9/05/2018,P,1
 Euchlanidae,Euchlanis dilatata,JP060101,NWS006,10/05/2018,P,1
-Eylaidae,Eylais sp.,MM030199,NWS001,8/05/2018,P,1
-Eylaidae,Eylais sp.,MM030199,NWS001,8/05/2018,B,1
-Eylaidae,Eylais sp.,MM030199,NWS004,9/05/2018,B,1
-Gerridae,Gerridae,QH579999,NWS001,8/05/2018,B,1
-Gerridae,Gerridae,QH579999,NWS004,9/05/2018,P,1
-Gerridae,Gerridae,QH579999,NWS005,10/05/2018,P,1
-Gerridae,Gerridae,QH579999,NWS005,10/05/2018,B,1
-Gerridae,Gerridae,QH579999,NWS006,10/05/2018,P,1
-Gerridae,Gerridae,QH579999,NWS006,10/05/2018,B,1
-Planorbidae,Gyraulus sp.,KG070799,NWS001,8/05/2018,B,1
-Planorbidae,Gyraulus sp.,KG070799,NWS001,8/05/2018,P,1
-Planorbidae,Gyraulus sp.,KG070799,NWS002,8/05/2018,B,1
-Planorbidae,Gyraulus sp.,KG070799,NWS002,8/05/2018,P,1
-Planorbidae,Gyraulus sp.,KG070799,NWS003,9/05/2018,P,1
-Planorbidae,Gyraulus sp.,KG070799,NWS003,9/05/2018,B,1
-Planorbidae,Gyraulus sp.,KG070799,NWS004,9/05/2018,B,1
-Planorbidae,Gyraulus sp.,KG070799,NWS004,9/05/2018,P,1
-Planorbidae,Gyraulus sp.,KG070799,NWS005,10/05/2018,B,1
-Planorbidae,Gyraulus sp.,KG070799,NWS005,10/05/2018,P,1
-Planorbidae,Gyraulus sp.,KG070799,NWS006,10/05/2018,P,1
-Planorbidae,Gyraulus sp.,KG070799,NWS006,10/05/2018,B,1
-Hydridae,Hydra sp.,IB010199,NWS002,8/05/2018,P,1
-Hydridae,Hydra sp.,IB010199,NWS003,9/05/2018,P,1
-Hydridae,Hydra sp.,IB010199,NWS004,9/05/2018,B,1
-Hydridae,Hydra sp.,IB010199,NWS004,9/05/2018,P,1
-Hydridae,Hydra sp.,IB010199,NWS005,10/05/2018,P,1
-Hydridae,Hydra sp.,IB010199,NWS006,10/05/2018,B,1
-Hydrachnidae,Hydrachna sp.,MM010199,NWS002,8/05/2018,B,1
-Hydrachnidae,Hydrachna sp.,MM010199,NWS004,9/05/2018,B,1
-Dytiscidae,Hydroglyphus daemeli,QC090904,NWS006,10/05/2018,B,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS001,8/05/2018,P,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS001,8/05/2018,B,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS002,8/05/2018,B,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS003,9/05/2018,B,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS003,9/05/2018,P,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS004,9/05/2018,B,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS004,9/05/2018,P,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS005,10/05/2018,B,1
-Dytiscidae,Hydroglyphus leai,QC090907,NWS005,10/05/2018,P,1
-Dytiscidae,Hydroglyphus trifasciatus,QC090906,NWS004,9/05/2018,B,1
-Dytiscidae,Hydroglyphus trifasciatus,QC090906,NWS005,10/05/2018,B,1
-Dytiscidae,Hydroglyphus trifasciatus,QC090906,NWS006,10/05/2018,P,1
-Dytiscidae,Hydroglyphus trifasciatus,QC090906,NWS006,10/05/2018,B,1
-Hydrometridae,Hydrometra sp.,QH540199,NWS005,10/05/2018,P,1
-Hydrometridae,Hydrometra sp.,QH540199,NWS005,10/05/2018,B,1
-Hydrometridae,Hydrometra sp.,QH540199,NWS006,10/05/2018,B,1
-Hydrometridae,Hydrometra sp.,QH540199,NWS006,10/05/2018,P,1
-Hydrophilidae,Hydrophilidae,QC119999,NWS001,8/05/2018,B,1
-Hydrophilidae,Hydrophilus sp.,QC111899,NWS006,10/05/2018,B,1
-Hydrophilidae,Hydrophilus sp.,QC111899,NWS006,10/05/2018,P,1
-Dytiscidae,Hydrovatus fasciatus,QC090306,NWS003,9/05/2018,B,1
-Dytiscidae,Hydrovatus fasciatus,QC090306,NWS004,9/05/2018,B,1
-Dytiscidae,Hydrovatus fasciatus,QC090306,NWS004,9/05/2018,P,1
-Dytiscidae,Hydrovatus rufoniger politus,QC090309,NWS002,8/05/2018,B,1
-Dytiscidae,Hydrovatus rufoniger politus,QC090309,NWS003,9/05/2018,B,1
-Dytiscidae,Hyphydrus lyratus,QC090402,NWS002,8/05/2018,B,1
-Dytiscidae,Hyphydrus lyratus,QC090402,NWS003,9/05/2018,B,1
-Dytiscidae,Hyphydrus lyratus,QC090402,NWS005,10/05/2018,B,1
-Coenagrionidae,Ischnura aurora aurora,QO021001,NWS001,8/05/2018,B,1
-Coenagrionidae,Ischnura aurora aurora,QO021001,NWS002,8/05/2018,B,1
-Coenagrionidae,Ischnura aurora aurora,QO021001,NWS003,9/05/2018,P,1
-Coenagrionidae,Ischnura aurora aurora,QO021001,NWS004,9/05/2018,B,1
-Coenagrionidae,Ischnura aurora aurora,QO021001,NWS004,9/05/2018,P,1
-Coenagrionidae,Ischnura aurora aurora,QO021001,NWS005,10/05/2018,B,1
-Coenagrionidae,Ischnura aurora aurora,QO021001,NWS006,10/05/2018,P,1
-Coenagrionidae,Ischnura aurora aurora,QO021001,NWS006,10/05/2018,B,1
-Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS001,8/05/2018,B,1
-Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS002,8/05/2018,B,1
-Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS003,9/05/2018,B,1
-Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS004,9/05/2018,P,1
-Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS004,9/05/2018,B,1
-Coenagrionidae,Ischnura sp.,QO021099,NWS001,8/05/2018,P,1
-Chydoridae,Karualona karua,OG033201,NWS005,10/05/2018,P,1
-Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS002,8/05/2018,B,1
-Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS003,9/05/2018,B,1
-Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS003,9/05/2018,P,1
-Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS004,9/05/2018,B,1
-Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS005,10/05/2018,B,1
-Chydoridae,Kurzia longirostris,OG031602,NWS005,10/05/2018,P,1
-Dytiscidae,Laccophilus clarki,QC090105,NWS002,8/05/2018,B,1
-Dytiscidae,Laccophilus clarki,QC090105,NWS003,9/05/2018,B,1
-Dytiscidae,Laccophilus clarki,QC090105,NWS004,9/05/2018,B,1
-Dytiscidae,Laccophilus clarki,QC090105,NWS006,10/05/2018,B,1
-Dytiscidae,Laccophilus sharpi,QC090101,NWS002,8/05/2018,B,1
-Dytiscidae,Laccophilus sharpi,QC090101,NWS003,9/05/2018,B,1
-Dytiscidae,Laccophilus sharpi,QC090101,NWS004,9/05/2018,B,1
-Dytiscidae,Laccophilus sharpi,QC090101,NWS006,10/05/2018,B,1
-Sididae,Latonopsis australis,OG010202,NWS005,10/05/2018,P,1
+Euchlanidae,Tripleuchlanis plicata,JP060301,NWS003,9/05/2018,P,1
 Lecanidae,Lecane bulla,JP090110,NWS002,8/05/2018,P,1
 Lecanidae,Lecane bulla,JP090110,NWS003,9/05/2018,P,1
 Lecanidae,Lecane bulla,JP090110,NWS004,9/05/2018,P,1
@@ -322,87 +64,69 @@ Lecanidae,Lecane grandis,JP090127,NWS005,10/05/2018,P,1
 Lecanidae,Lecane hamata,JP090129,NWS006,10/05/2018,P,1
 Lecanidae,Lecane luna,JP090137,NWS003,9/05/2018,P,1
 Lecanidae,Lecane luna,JP090137,NWS005,10/05/2018,P,1
-Lecanidae,Lecane plesia,JP090195,NWS001,8/05/2018,B,1
-Lecanidae,Lecane sp. A (NWS),JP0901G2,NWS003,9/05/2018,P,1
-Lecanidae,Lecane sp. A (NWS),JP0901G2,NWS006,10/05/2018,P,1
-Lecanidae,Lecane sp. B (NWS),JP0901G3,NWS006,10/05/2018,P,1
-Lecanidae,Lecane ungulata,JP090172,NWS001,8/05/2018,B,1
+Lecanidae,Lecane ungulata,JP090172,NWS001,8/05/2018,P,1
 Lecanidae,Lecane ungulata,JP090172,NWS006,10/05/2018,P,1
-Lepadellidae,Lepadella oblonga,JP030223,NWS001,8/05/2018,B,1
-Lepadellidae,Lepadella oblonga,JP030223,NWS004,9/05/2018,P,1
-Lepadellidae,Lepadella oblonga,JP030223,NWS005,10/05/2018,P,1
-Lepadellidae,Lepadella oblonga,JP030223,NWS006,10/05/2018,P,1
-Lepadellidae,Lepadella patella,JP030224,NWS006,10/05/2018,P,1
-Lepadellidae,Lepadella rhomboides,JP030230,NWS003,9/05/2018,P,1
-Lepadellidae,Lepadella rhomboides,JP030230,NWS004,9/05/2018,P,1
-Lepadellidae,Lepadella rhomboides,JP030230,NWS006,10/05/2018,P,1
-Libellulidae,Libellulidae,QO179999,NWS003,9/05/2018,B,1
-Dytiscidae,Limbodessus compactus,QC091001,NWS006,10/05/2018,B,1
-Dytiscidae,Limbodessus sp.,QC091099,NWS004,9/05/2018,B,1
-Dytiscidae,Limbodessus sp.,QC091099,NWS005,10/05/2018,B,1
-Dytiscidae,Limbodessus sp.,QC091099,NWS006,10/05/2018,P,1
-Limnichidae,Limnichidae,QC359999,NWS003,9/05/2018,B,1
-Gerridae,Limnogonus fossarum gilguy,QH570301,NWS002,8/05/2018,B,1
-Gerridae,Limnogonus fossarum gilguy,QH570301,NWS003,9/05/2018,B,1
-Gerridae,Limnogonus sp.,QH570399,NWS003,9/05/2018,P,1
-Gerridae,Limnogonus sp.,QH570399,NWS004,9/05/2018,B,1
-Mytilinidae,Lophocharis oxysternon,JP120202,NWS005,10/05/2018,P,1
-Dytiscidae,Megaporus ruficeps,QC092105,NWS005,10/05/2018,B,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS001,8/05/2018,B,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS002,8/05/2018,B,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS002,8/05/2018,P,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS003,9/05/2018,P,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS003,9/05/2018,B,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS004,9/05/2018,P,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS004,9/05/2018,B,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS005,10/05/2018,B,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS005,10/05/2018,P,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS006,10/05/2018,P,1
-Cyclopidae,Mesocyclops brooksi,OJ310703,NWS006,10/05/2018,B,1
--,Mesostigmata,MM9999A2,NWS004,9/05/2018,B,1
--,Mesostigmata,MM9999A2,NWS006,10/05/2018,B,1
-Mesoveliidae,Mesovelia sp.,QH520199,NWS001,8/05/2018,P,1
-Mesoveliidae,Mesovelia sp.,QH520199,NWS004,9/05/2018,P,1
-Mesoveliidae,Mesovelia sp.,QH520199,NWS006,10/05/2018,P,1
-Mesoveliidae,Mesovelia vittigera,QH520102,NWS001,8/05/2018,B,1
-Mesoveliidae,Mesovelia vittigera,QH520102,NWS002,8/05/2018,B,1
-Mesoveliidae,Mesovelia vittigera,QH520102,NWS003,9/05/2018,P,1
-Mesoveliidae,Mesovelia vittigera,QH520102,NWS004,9/05/2018,B,1
-Mesoveliidae,Mesovelia vittigera,QH520102,NWS005,10/05/2018,B,1
-Mesoveliidae,Mesovelia vittigera,QH520102,NWS006,10/05/2018,B,1
-Cyclopidae,Microcyclops varicans,OJ310101,NWS005,10/05/2018,B,1
-Corixidae,Micronecta paragoga (ex sp. P3),QH6505A4,NWS002,8/05/2018,B,1
-Corixidae,Micronecta paragoga (ex sp. P3),QH6505A4,NWS003,9/05/2018,B,1
-Corixidae,Micronecta paragoga (ex sp. P3),QH6505A4,NWS004,9/05/2018,B,1
-Corixidae,Micronecta virgata,QH650516,NWS001,8/05/2018,B,1
-Corixidae,Micronecta virgata,QH650516,NWS001,8/05/2018,P,1
-Corixidae,Micronecta virgata,QH650516,NWS002,8/05/2018,B,1
-Corixidae,Micronecta virgata,QH650516,NWS003,9/05/2018,P,1
-Corixidae,Micronecta virgata,QH650516,NWS003,9/05/2018,B,1
-Corixidae,Micronecta virgata,QH650516,NWS004,9/05/2018,B,1
-Corixidae,Micronecta virgata,QH650516,NWS004,9/05/2018,P,1
-Corixidae,Micronecta virgata,QH650516,NWS005,10/05/2018,B,1
-Corixidae,Micronecta virgata,QH650516,NWS006,10/05/2018,B,1
-Corixidae,Micronecta virgata,QH650516,NWS006,10/05/2018,P,1
-Veliidae,Microvelia (Picaultia) douglasi,QH560117,NWS003,9/05/2018,P,1
-Veliidae,Microvelia (Picaultia) douglasi,QH560117,NWS005,10/05/2018,B,1
-Veliidae,Microvelia sp.,QH560199,NWS003,9/05/2018,B,1
-Moinidae,Moina sp.,OG070199,NWS001,8/05/2018,B,1
-Muscidae,Muscidae,QD899999,NWS001,8/05/2018,B,1
-Muscidae,Muscidae,QD899999,NWS003,9/05/2018,P,1
-Mytilinidae,Mytilina ventralis macracantha,JP120111,NWS001,8/05/2018,B,1
+Lecanidae,Lecane plesia,JP090195,NWS001,8/05/2018,P,1
+Lecanidae,Lecane sp. A,JP0901G2,NWS003,9/05/2018,P,1
+Lecanidae,Lecane sp. A,JP0901G2,NWS006,10/05/2018,P,1
+Lecanidae,Lecane sp. B,JP0901G3,NWS006,10/05/2018,P,1
+Mytilinidae,Mytilina ventralis macracantha,JP120111,NWS001,8/05/2018,P,1
 Mytilinidae,Mytilina ventralis macracantha,JP120111,NWS003,9/05/2018,P,1
 Mytilinidae,Mytilina ventralis macracantha,JP120111,NWS005,10/05/2018,P,1
 Mytilinidae,Mytilina ventralis macracantha,JP120111,NWS006,10/05/2018,P,1
-Naucoridae,Naucoris sp.,QH660199,NWS003,9/05/2018,B,1
-Naucoridae,Naucoris subopacus,QH660103,NWS004,9/05/2018,P,1
-Naucoridae,Naucoris subopacus,QH660103,NWS004,9/05/2018,B,1
--,Nematoda,II999999,NWS002,8/05/2018,B,1
--,Nematoda,II999999,NWS003,9/05/2018,B,1
--,Nematoda,II999999,NWS006,10/05/2018,B,1
-Lesquereusidae,Netzelia corona,BP070202,NWS005,10/05/2018,P,1
-Lesquereusidae,Netzelia tuberculata,BP070201,NWS004,9/05/2018,P,1
-Lesquereusidae,Netzelia tuberculata,BP070201,NWS005,10/05/2018,P,1
+Mytilinidae,Lophocharis oxysternon,JP120202,NWS005,10/05/2018,P,1
+Notommatidae,Cephalodella forficula,JP130202,NWS004,9/05/2018,P,1
+Notommatidae,Cephalodella forficula,JP130202,NWS006,10/05/2018,P,1
+Notommatidae,Notommata tripus,JP130515,NWS006,10/05/2018,P,1
+Proalidae,Proales sp.,JP140299,NWS003,9/05/2018,P,1
+Planorbidae,Gyraulus sp.,KG070799,NWS001,8/05/2018,B,1
+Planorbidae,Gyraulus sp.,KG070799,NWS001,8/05/2018,P,1
+Planorbidae,Gyraulus sp.,KG070799,NWS002,8/05/2018,B,1
+Planorbidae,Gyraulus sp.,KG070799,NWS002,8/05/2018,P,1
+Planorbidae,Gyraulus sp.,KG070799,NWS003,9/05/2018,B,1
+Planorbidae,Gyraulus sp.,KG070799,NWS003,9/05/2018,P,1
+Planorbidae,Gyraulus sp.,KG070799,NWS004,9/05/2018,B,1
+Planorbidae,Gyraulus sp.,KG070799,NWS004,9/05/2018,P,1
+Planorbidae,Gyraulus sp.,KG070799,NWS005,10/05/2018,B,1
+Planorbidae,Gyraulus sp.,KG070799,NWS005,10/05/2018,P,1
+Planorbidae,Gyraulus sp.,KG070799,NWS006,10/05/2018,B,1
+Planorbidae,Gyraulus sp.,KG070799,NWS006,10/05/2018,P,1
+Assiminaeidae,Assiminaeidae,KG219999,NWS003,9/05/2018,B,1
+Assiminaeidae,Assiminaeidae,KG219999,NWS003,9/05/2018,P,1
+Assiminaeidae,Assiminaeidae,KG219999,NWS004,9/05/2018,B,1
+Naididae,Dero nivea,LO050202,NWS005,10/05/2018,B,1
+Naididae,Dero nivea,LO050202,NWS005,10/05/2018,P,1
+Naididae,Dero furcata,LO050203,NWS001,8/05/2018,B,1
+Naididae,Dero furcata,LO050203,NWS003,9/05/2018,B,1
+Naididae,Dero furcata,LO050203,NWS004,9/05/2018,B,1
+Naididae,Dero furcata,LO050203,NWS006,10/05/2018,B,1
+Naididae,Dero furcata,LO050203,NWS006,10/05/2018,P,1
+Naididae,Dero pectinata,LO050205,NWS002,8/05/2018,B,1
+Naididae,Dero pectinata,LO050205,NWS002,8/05/2018,P,1
+Naididae,Dero pectinata,LO050205,NWS003,9/05/2018,B,1
+Naididae,Dero pectinata,LO050205,NWS004,9/05/2018,B,1
+Naididae,Dero pectinata,LO050205,NWS004,9/05/2018,P,1
+Naididae,Allonais ranauana,LO050402,NWS001,8/05/2018,P,1
+Naididae,Allonais ranauana,LO050402,NWS002,8/05/2018,B,1
+Naididae,Allonais ranauana,LO050402,NWS002,8/05/2018,P,1
+Naididae,Allonais ranauana,LO050402,NWS003,9/05/2018,P,1
+Naididae,Allonais ranauana,LO050402,NWS004,9/05/2018,B,1
+Naididae,Allonais ranauana,LO050402,NWS004,9/05/2018,P,1
+Naididae,Allonais ranauana,LO050402,NWS006,10/05/2018,P,1
+Naididae,Allonais inaequalis,LO050404,NWS002,8/05/2018,B,1
+Naididae,Allonais inaequalis,LO050404,NWS002,8/05/2018,P,1
+Naididae,Allonais inaequalis,LO050404,NWS004,9/05/2018,B,1
+Naididae,Allonais inaequalis,LO050404,NWS005,10/05/2018,B,1
+Naididae,Allonais inaequalis,LO050404,NWS005,10/05/2018,P,1
+Pristinidae,Pristina longiseta,LO150101,NWS005,10/05/2018,P,1
+Pristinidae,Pristina longiseta,LO150101,NWS006,10/05/2018,B,1
+Pristinidae,Pristina longiseta,LO150101,NWS006,10/05/2018,P,1
+Pristinidae,Pristina leidyi,LO150107,NWS002,8/05/2018,P,1
+Hydrachnidae,Hydrachna sp.,MM010199,NWS002,8/05/2018,B,1
+Hydrachnidae,Hydrachna sp.,MM010199,NWS004,9/05/2018,B,1
+Eylaidae,Eylais sp.,MM030199,NWS001,8/05/2018,B,1
+Eylaidae,Eylais sp.,MM030199,NWS001,8/05/2018,P,1
+Eylaidae,Eylais sp.,MM030199,NWS004,9/05/2018,B,1
 Unionicolidae,Neumania sp.,MM160399,NWS001,8/05/2018,B,1
 Unionicolidae,Neumania sp.,MM160399,NWS002,8/05/2018,B,1
 Unionicolidae,Neumania sp.,MM160399,NWS003,9/05/2018,B,1
@@ -410,94 +134,209 @@ Unionicolidae,Neumania sp.,MM160399,NWS004,9/05/2018,B,1
 Unionicolidae,Neumania sp.,MM160399,NWS005,10/05/2018,B,1
 Unionicolidae,Neumania sp.,MM160399,NWS005,10/05/2018,P,1
 Unionicolidae,Neumania sp.,MM160399,NWS006,10/05/2018,B,1
-Ceratopogonidae,Nilobezzzia sp. NWS,QD0920A7,NWS002,8/05/2018,P,1
-Ceratopogonidae,Nilobezzzia sp. NWS,QD0920A7,NWS002,8/05/2018,B,1
-Ceratopogonidae,Nilobezzzia sp. NWS,QD0920A7,NWS003,9/05/2018,B,1
-Ceratopogonidae,Nilobezzzia sp. NWS,QD0920A7,NWS004,9/05/2018,B,1
-Notommatidae,Notommata tripus,JP130515,NWS006,10/05/2018,P,1
--,Oribatida sp.,MM9999A1,NWS004,9/05/2018,B,1
-Libellulidae,Orthetrum caledonicum,QO171601,NWS001,8/05/2018,B,1
-Libellulidae,Orthetrum caledonicum,QO171601,NWS002,8/05/2018,B,1
-Libellulidae,Orthetrum caledonicum,QO171601,NWS003,9/05/2018,B,1
-Libellulidae,Orthetrum caledonicum,QO171601,NWS004,9/05/2018,B,1
-Chironomidae,Parachironomus 'K1' (PSW),QDAI25A2,NWS004,9/05/2018,P,1
-Hydrophilidae,Paracymus pygmaeus,QC111601,NWS001,8/05/2018,B,1
-Hydrophilidae,Paracymus pygmaeus,QC111601,NWS004,9/05/2018,B,1
-Hydrophilidae,Paracymus pygmaeus,QC111601,NWS006,10/05/2018,P,1
-Hydrophilidae,Paracymus pygmaeus,QC111601,NWS006,10/05/2018,B,1
-Pleidae,Paraplea brunni,QH680101,NWS002,8/05/2018,B,1
-Pleidae,Paraplea brunni,QH680101,NWS003,9/05/2018,P,1
-Pleidae,Paraplea brunni,QH680101,NWS003,9/05/2018,B,1
-Pleidae,Paraplea brunni,QH680101,NWS004,9/05/2018,B,1
-Pleidae,Paraplea brunni,QH680101,NWS004,9/05/2018,P,1
-Pleidae,Paraplea brunni,QH680101,NWS005,10/05/2018,B,1
-Pleidae,Paraplea brunni,QH680101,NWS005,10/05/2018,P,1
-Pleidae,Paraplea brunni,QH680101,NWS006,10/05/2018,B,1
-Pleidae,Paraplea sp.,QH680199,NWS002,8/05/2018,P,1
-Pleidae,Paraplea sp.,QH680199,NWS006,10/05/2018,P,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS002,8/05/2018,B,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS003,9/05/2018,B,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS003,9/05/2018,P,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS004,9/05/2018,B,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS004,9/05/2018,P,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS005,10/05/2018,B,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS005,10/05/2018,P,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS006,10/05/2018,P,1
-Chironomidae,Pentaneurini sp. P1 (PSW),QDAE99A8,NWS006,10/05/2018,B,1
-Pionidae,Piona sp.,MM170399,NWS003,9/05/2018,P,1
 Pionidae,Piona sp.,MM170399,NWS003,9/05/2018,B,1
+Pionidae,Piona sp.,MM170399,NWS003,9/05/2018,P,1
 Pionidae,Piona sp.,MM170399,NWS004,9/05/2018,B,1
 Pionidae,Piona sp.,MM170399,NWS005,10/05/2018,B,1
 Pionidae,Piona sp.,MM170399,NWS005,10/05/2018,P,1
-Brachionidae,Platyias quadricornis,JP020601,NWS004,9/05/2018,P,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS001,8/05/2018,B,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS001,8/05/2018,P,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS002,8/05/2018,B,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS002,8/05/2018,P,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS003,9/05/2018,B,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS003,9/05/2018,P,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS004,9/05/2018,B,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS004,9/05/2018,P,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS005,10/05/2018,B,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS005,10/05/2018,P,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS006,10/05/2018,P,1
-Chironomidae,Polypedilum nr. convexum (PSW),QDAI08B0,NWS006,10/05/2018,B,1
-Chironomidae,Polypedilum nubifer,QDAI0804,NWS001,8/05/2018,B,1
-Pristinidae,Pristina leidyi,LO150107,NWS002,8/05/2018,P,1
-Pristinidae,Pristina longiseta,LO150101,NWS005,10/05/2018,P,1
-Pristinidae,Pristina longiseta,LO150101,NWS006,10/05/2018,B,1
-Pristinidae,Pristina longiseta,LO150101,NWS006,10/05/2018,P,1
-Proalidae,Proales sp.,JP140299,NWS003,9/05/2018,P,1
-Chironomidae,Procladius paludicola,QDAE0803,NWS002,8/05/2018,B,1
-Chironomidae,Procladius paludicola,QDAE0803,NWS004,9/05/2018,B,1
-Coenagrionidae,Pseudagrion microcephalum,QO021104,NWS002,8/05/2018,B,1
-Coenagrionidae,Pseudagrion microcephalum,QO021104,NWS004,9/05/2018,B,1
-Flosculariidae,Ptygura sp.,JF030599,NWS004,9/05/2018,P,1
-Nepidae,Ranatra diminuta,QH610202,NWS005,10/05/2018,B,1
-Nepidae,Ranatra sp.,QH610299,NWS002,8/05/2018,B,1
-Nepidae,Ranatra sp.,QH610299,NWS003,9/05/2018,P,1
-Nepidae,Ranatra sp.,QH610299,NWS003,9/05/2018,B,1
-Nepidae,Ranatra sp.,QH610299,NWS004,9/05/2018,P,1
-Nepidae,Ranatra sp.,QH610299,NWS004,9/05/2018,B,1
-Nepidae,Ranatra sp.,QH610299,NWS005,10/05/2018,P,1
-Hydrophilidae,Regimbartia attenuata,QC110701,NWS006,10/05/2018,B,1
+Arrenuridae,Arrenurus multicornutus,MM230115,NWS005,10/05/2018,B,1
+Arrenuridae,Arrenurus multicornutus,MM230115,NWS005,10/05/2018,P,1
+Arrenuridae,Arrenurus sp. 29,MM2301E3,NWS001,8/05/2018,P,1
+Arrenuridae,Arrenurus sp. 29,MM2301E3,NWS002,8/05/2018,B,1
+Arrenuridae,Arrenurus sp. 29,MM2301E3,NWS002,8/05/2018,P,1
+Arrenuridae,Arrenurus sp. 29,MM2301E3,NWS003,9/05/2018,B,1
+Arrenuridae,Arrenurus sp. 29,MM2301E3,NWS003,9/05/2018,P,1
+Arrenuridae,Arrenurus sp. 29,MM2301E3,NWS004,9/05/2018,B,1
+Arrenuridae,Arrenurus sp. 29,MM2301E3,NWS005,10/05/2018,P,1
+Arrenuridae,Arrenurus sp. 29,MM2301E3,NWS006,10/05/2018,B,1
+Arrenuridae,Arrenuridae,MM239999,NWS004,9/05/2018,P,1
+-,Eniochthoniidae,MM3999A0,NWS004,9/05/2018,B,1
+-,Eniochthoniidae,MM3999A0,NWS005,10/05/2018,B,1
+-,Acarina,MM999901,NWS006,10/05/2018,P,1
+-,Oribatida sp.,MM9999A1,NWS004,9/05/2018,B,1
+-,Mesostigmata,MM9999A2,NWS004,9/05/2018,B,1
+-,Mesostigmata,MM9999A2,NWS006,10/05/2018,B,1
+-,Trombidioidea,MM9999A6,NWS004,9/05/2018,B,1
+Sididae,Diaphanosoma australiensis,OG010101,NWS002,8/05/2018,P,1
+Sididae,Diaphanosoma australiensis,OG010101,NWS003,9/05/2018,P,1
+Sididae,Diaphanosoma australiensis,OG010101,NWS004,9/05/2018,P,1
+Sididae,Diaphanosoma australiensis,OG010101,NWS005,10/05/2018,P,1
+Sididae,Diaphanosoma australiensis,OG010101,NWS006,10/05/2018,P,1
+Sididae,Latonopsis australis,OG010202,NWS005,10/05/2018,P,1
 Sididae,Sarsilatona papuana,OG010501,NWS005,10/05/2018,P,1
 Sididae,Sarsilatona papuana,OG010501,NWS006,10/05/2018,P,1
-Scatopsidae,Scatopsidae,QD159999,NWS004,9/05/2018,B,1
-Scirtidae,Scirtidae,QC209999,NWS004,9/05/2018,B,1
-Scirtidae,Scirtidae,QC209999,NWS006,10/05/2018,P,1
-Scirtidae,Scirtidae,QC209999,NWS006,10/05/2018,B,1
+Chydoridae,Chydorus cf. sphaericus,OG0309A5,NWS001,8/05/2018,P,1
+Chydoridae,Dunhevedia crassa,OG031201,NWS001,8/05/2018,P,1
+Chydoridae,Dunhevedia crassa,OG031201,NWS003,9/05/2018,P,1
+Chydoridae,Dunhevedia crassa,OG031201,NWS004,9/05/2018,P,1
+Chydoridae,Dunhevedia crassa,OG031201,NWS005,10/05/2018,P,1
+Chydoridae,Dunhevedia crassa,OG031201,NWS006,10/05/2018,P,1
+Chydoridae,Kurzia longirostris,OG031602,NWS005,10/05/2018,P,1
+Chydoridae,Karualona karua,OG033201,NWS005,10/05/2018,P,1
+Daphniidae,Ceriodaphnia cornuta,OG040101,NWS002,8/05/2018,P,1
+Daphniidae,Ceriodaphnia cornuta,OG040101,NWS003,9/05/2018,P,1
+Daphniidae,Ceriodaphnia cornuta,OG040101,NWS004,9/05/2018,P,1
+Daphniidae,Ceriodaphnia cornuta,OG040101,NWS005,10/05/2018,P,1
+Daphniidae,Ceriodaphnia sp.,OG040199,NWS003,9/05/2018,P,1
+Daphniidae,Ceriodaphnia sp.,OG040199,NWS004,9/05/2018,P,1
+Daphniidae,Ceriodaphnia sp.,OG040199,NWS005,10/05/2018,P,1
 Daphniidae,Simocephalus heilongjiangensis,OG040508,NWS003,9/05/2018,P,1
 Daphniidae,Simocephalus heilongjiangensis,OG040508,NWS005,10/05/2018,P,1
+Moinidae,Moina sp.,OG070199,NWS001,8/05/2018,B,1
+Darwinulidae,Vestalenula marmonieri,OH050301,NWS002,8/05/2018,B,1
+Darwinulidae,Vestalenula marmonieri,OH050301,NWS004,9/05/2018,B,1
+Darwinulidae,Vestalenula marmonieri,OH050301,NWS006,10/05/2018,B,1
+Candonidae,Candonidae,OH079999,NWS003,9/05/2018,B,1
+Cyprididae,Cypretta sp.,OH080599,NWS002,8/05/2018,B,1
+Cyprididae,Cypretta sp.,OH080599,NWS003,9/05/2018,B,1
+Cyprididae,Cypretta sp.,OH080599,NWS004,9/05/2018,B,1
+Cyprididae,Cypretta sp.,OH080599,NWS005,10/05/2018,P,1
+Cyprididae,Cypretta sp.,OH080599,NWS006,10/05/2018,B,1
+Cyprididae,Cypretta sp.,OH080599,NWS006,10/05/2018,P,1
+Cyprididae,Cyprinotus cingalensis,OH080604,NWS001,8/05/2018,B,1
+Cyprididae,Cyprinotus cingalensis,OH080604,NWS001,8/05/2018,P,1
+Cyprididae,Strandesia_Chlamydotheca gen nov 357,OH0816B0,NWS005,10/05/2018,P,1
+Cyprididae,Cypricercus sp.,OH082199,NWS003,9/05/2018,B,1
+Cyprididae,Cypris sp.,OH082499,NWS006,10/05/2018,B,1
+Cyprididae,Cypris sp.,OH082499,NWS006,10/05/2018,P,1
+Cyprididae,Stenocypris sp. 'nimalarragan',OH0827A0,NWS002,8/05/2018,B,1
+Cyprididae,Chrissia sp.,OH083699,NWS006,10/05/2018,B,1
+Cyclopidae,Microcyclops varicans,OJ310101,NWS005,10/05/2018,B,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS001,8/05/2018,B,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS002,8/05/2018,B,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS002,8/05/2018,P,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS003,9/05/2018,B,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS003,9/05/2018,P,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS004,9/05/2018,B,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS004,9/05/2018,P,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS005,10/05/2018,B,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS005,10/05/2018,P,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS006,10/05/2018,B,1
+Cyclopidae,Mesocyclops brooksi,OJ310703,NWS006,10/05/2018,P,1
+Cyclopidae,Apocyclops dengizicus,OJ311201,NWS002,8/05/2018,B,1
+Dytiscidae,Laccophilus sharpi,QC090101,NWS002,8/05/2018,B,1
+Dytiscidae,Laccophilus sharpi,QC090101,NWS003,9/05/2018,B,1
+Dytiscidae,Laccophilus sharpi,QC090101,NWS004,9/05/2018,B,1
+Dytiscidae,Laccophilus sharpi,QC090101,NWS006,10/05/2018,B,1
+Dytiscidae,Laccophilus clarki,QC090105,NWS002,8/05/2018,B,1
+Dytiscidae,Laccophilus clarki,QC090105,NWS003,9/05/2018,B,1
+Dytiscidae,Laccophilus clarki,QC090105,NWS004,9/05/2018,B,1
+Dytiscidae,Laccophilus clarki,QC090105,NWS006,10/05/2018,B,1
+Dytiscidae,Hydrovatus fasciatus,QC090306,NWS003,9/05/2018,B,1
+Dytiscidae,Hydrovatus fasciatus,QC090306,NWS004,9/05/2018,B,1
+Dytiscidae,Hydrovatus fasciatus,QC090306,NWS004,9/05/2018,P,1
+Dytiscidae,Hydrovatus rufoniger politus,QC090309,NWS002,8/05/2018,B,1
+Dytiscidae,Hydrovatus rufoniger politus,QC090309,NWS003,9/05/2018,B,1
+Dytiscidae,Hyphydrus lyratus,QC090402,NWS002,8/05/2018,B,1
+Dytiscidae,Hyphydrus lyratus,QC090402,NWS003,9/05/2018,B,1
+Dytiscidae,Hyphydrus lyratus,QC090402,NWS005,10/05/2018,B,1
+Dytiscidae,Hydroglyphus daemeli,QC090904,NWS006,10/05/2018,B,1
+Dytiscidae,Hydroglyphus trifasciatus,QC090906,NWS004,9/05/2018,B,1
+Dytiscidae,Hydroglyphus trifasciatus,QC090906,NWS005,10/05/2018,B,1
+Dytiscidae,Hydroglyphus trifasciatus,QC090906,NWS006,10/05/2018,B,1
+Dytiscidae,Hydroglyphus trifasciatus,QC090906,NWS006,10/05/2018,P,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS001,8/05/2018,B,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS001,8/05/2018,P,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS002,8/05/2018,B,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS003,9/05/2018,B,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS003,9/05/2018,P,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS004,9/05/2018,B,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS004,9/05/2018,P,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS005,10/05/2018,B,1
+Dytiscidae,Hydroglyphus leai,QC090907,NWS005,10/05/2018,P,1
+Dytiscidae,Limbodessus compactus,QC091001,NWS006,10/05/2018,B,1
+Dytiscidae,Limbodessus sp.,QC091099,NWS004,9/05/2018,B,1
+Dytiscidae,Limbodessus sp.,QC091099,NWS005,10/05/2018,B,1
+Dytiscidae,Limbodessus sp.,QC091099,NWS006,10/05/2018,P,1
+Dytiscidae,Megaporus ruficeps,QC092105,NWS005,10/05/2018,B,1
+Dytiscidae,Cybister tripunctatus temnenkii,QC093606,NWS005,10/05/2018,B,1
+Dytiscidae,Cybister sp.,QC093699,NWS002,8/05/2018,B,1
+Dytiscidae,Cybister sp.,QC093699,NWS004,9/05/2018,B,1
+Dytiscidae,Cybister sp.,QC093699,NWS006,10/05/2018,B,1
+Dytiscidae,Bidessini,QC0999A6,NWS001,8/05/2018,B,1
+Dytiscidae,Bidessini,QC0999A6,NWS001,8/05/2018,P,1
+Hydrophilidae,Spercheus sp.,QC110399,NWS002,8/05/2018,P,1
+Hydrophilidae,Spercheus sp.,QC110399,NWS003,9/05/2018,B,1
+Hydrophilidae,Spercheus sp.,QC110399,NWS004,9/05/2018,P,1
+Hydrophilidae,Berosus australiae,QC110401,NWS001,8/05/2018,B,1
+Hydrophilidae,Berosus australiae,QC110401,NWS002,8/05/2018,B,1
+Hydrophilidae,Berosus australiae,QC110401,NWS002,8/05/2018,P,1
+Hydrophilidae,Berosus australiae,QC110401,NWS004,9/05/2018,B,1
+Hydrophilidae,Berosus australiae,QC110401,NWS006,10/05/2018,B,1
+Hydrophilidae,Berosus australiae,QC110401,NWS006,10/05/2018,P,1
+Hydrophilidae,Berosus aquilo,QC110405,NWS001,8/05/2018,B,1
+Hydrophilidae,Berosus aquilo,QC110405,NWS001,8/05/2018,P,1
+Hydrophilidae,Berosus nicholasi,QC110419,NWS001,8/05/2018,B,1
+Hydrophilidae,Berosus nicholasi,QC110419,NWS001,8/05/2018,P,1
+Hydrophilidae,Berosus pulchellus,QC110422,NWS001,8/05/2018,B,1
+Hydrophilidae,Berosus sp.,QC110499,NWS002,8/05/2018,B,1
+Hydrophilidae,Berosus sp.,QC110499,NWS003,9/05/2018,B,1
+Hydrophilidae,Berosus sp.,QC110499,NWS004,9/05/2018,P,1
+Hydrophilidae,Regimbartia attenuata,QC110701,NWS006,10/05/2018,B,1
+Hydrophilidae,Enochrus deserticola,QC111105,NWS001,8/05/2018,B,1
+Hydrophilidae,Enochrus sp.,QC111199,NWS002,8/05/2018,B,1
+Hydrophilidae,Paracymus pygmaeus,QC111601,NWS001,8/05/2018,B,1
+Hydrophilidae,Paracymus pygmaeus,QC111601,NWS004,9/05/2018,B,1
+Hydrophilidae,Paracymus pygmaeus,QC111601,NWS006,10/05/2018,B,1
+Hydrophilidae,Paracymus pygmaeus,QC111601,NWS006,10/05/2018,P,1
+Hydrophilidae,Hydrophilus sp.,QC111899,NWS006,10/05/2018,B,1
+Hydrophilidae,Hydrophilus sp.,QC111899,NWS006,10/05/2018,P,1
+Hydrophilidae,Coelostoma fabricii,QC112001,NWS001,8/05/2018,B,1
+Hydrophilidae,Hydrophilidae,QC119999,NWS001,8/05/2018,B,1
+Scirtidae,Scirtidae,QC209999,NWS004,9/05/2018,B,1
+Scirtidae,Scirtidae,QC209999,NWS006,10/05/2018,B,1
+Scirtidae,Scirtidae,QC209999,NWS006,10/05/2018,P,1
+Limnichidae,Limnichidae,QC359999,NWS003,9/05/2018,B,1
 Hydrophilidae,Spercheus platycephalus,QCAR0103,NWS004,9/05/2018,B,1
 Hydrophilidae,Spercheus platycephalus,QCAR0103,NWS005,10/05/2018,B,1
 Hydrophilidae,Spercheus platycephalus,QCAR0103,NWS006,10/05/2018,B,1
 Hydrophilidae,Spercheus platycephalus,QCAR0103,NWS006,10/05/2018,P,1
-Hydrophilidae,Spercheus sp.,QC110399,NWS002,8/05/2018,P,1
-Hydrophilidae,Spercheus sp.,QC110399,NWS003,9/05/2018,B,1
-Hydrophilidae,Spercheus sp.,QC110399,NWS004,9/05/2018,P,1
-Cyprididae,Stenocypris sp. 'nimalarragan',OH0827A0,NWS002,8/05/2018,B,1
-Cyprididae,Strandesia/Chlamydotheca gen nov 357,OH0816B0,NWS005,10/05/2018,P,1
+Chaoboridae,Chaoboridae,QD059999,NWS005,10/05/2018,B,1
+Culicidae,Anopheles bancroftii,QD070106,NWS005,10/05/2018,P,1
+Culicidae,Anopheles hilli,QD070114,NWS001,8/05/2018,P,1
+Culicidae,Anopheles sp.,QD070199,NWS001,8/05/2018,B,1
+Culicidae,Anopheles sp.,QD070199,NWS006,10/05/2018,B,1
+Culicidae,Culex annulirostris,QD070709,NWS001,8/05/2018,B,1
+Culicidae,Culex annulirostris,QD070709,NWS001,8/05/2018,P,1
+Culicidae,Culex annulirostris,QD070709,NWS002,8/05/2018,B,1
+Culicidae,Culex annulirostris,QD070709,NWS002,8/05/2018,P,1
+Culicidae,Culex annulirostris,QD070709,NWS003,9/05/2018,B,1
+Culicidae,Culex annulirostris,QD070709,NWS003,9/05/2018,P,1
+Culicidae,Culex annulirostris,QD070709,NWS004,9/05/2018,B,1
+Culicidae,Culex annulirostris,QD070709,NWS004,9/05/2018,P,1
+Culicidae,Culex annulirostris,QD070709,NWS005,10/05/2018,B,1
+Culicidae,Culex annulirostris,QD070709,NWS005,10/05/2018,P,1
+Culicidae,Culex sp.,QD070799,NWS006,10/05/2018,B,1
+Culicidae,Culex L sp.,QD0707A8,NWS003,9/05/2018,P,1
+Culicidae,Culex L sp.,QD0707A8,NWS005,10/05/2018,B,1
+Culicidae,Uranotaenia albescens,QD071401,NWS005,10/05/2018,B,1
+Culicidae,Uranotaenia albescens,QD071401,NWS006,10/05/2018,B,1
+Culicidae,Uranotaenia albescens,QD071401,NWS006,10/05/2018,P,1
+Ceratopogonidae,Culicoides sp.,QD090899,NWS003,9/05/2018,B,1
+Ceratopogonidae,Culicoides sp.,QD090899,NWS004,9/05/2018,B,1
+Ceratopogonidae,Nilobezzzia sp. NWS,QD0920A7,NWS002,8/05/2018,B,1
+Ceratopogonidae,Nilobezzzia sp. NWS,QD0920A7,NWS002,8/05/2018,P,1
+Ceratopogonidae,Nilobezzzia sp. NWS,QD0920A7,NWS003,9/05/2018,B,1
+Ceratopogonidae,Nilobezzzia sp. NWS,QD0920A7,NWS004,9/05/2018,B,1
+Ceratopogonidae,Ceratopogonidae,QD099999,NWS003,9/05/2018,P,1
+Ceratopogonidae,Ceratopogonidae,QD099999,NWS005,10/05/2018,B,1
+Ceratopogonidae,Dasyheleinae,QD0999A2,NWS001,8/05/2018,B,1
+Ceratopogonidae,Dasyheleinae,QD0999A2,NWS001,8/05/2018,P,1
+Ceratopogonidae,Dasyheleinae,QD0999A2,NWS003,9/05/2018,B,1
+Ceratopogonidae,Dasyheleinae,QD0999A2,NWS003,9/05/2018,P,1
+Ceratopogonidae,Dasyheleinae,QD0999A2,NWS005,10/05/2018,B,1
+Ceratopogonidae,Dasyheleinae,QD0999A2,NWS006,10/05/2018,B,1
+Ceratopogonidae,Ceratopogonidae sp. KMS1,QD0999B2,NWS002,8/05/2018,B,1
+Ceratopogonidae,Ceratopogonidae sp. KMS2,QD0999B3,NWS001,8/05/2018,B,1
+Ceratopogonidae,Ceratopogonidae sp. KMS2,QD0999B3,NWS002,8/05/2018,B,1
+Ceratopogonidae,Ceratopogonidae sp. KMS8,QD0999B9,NWS002,8/05/2018,B,1
+Ceratopogonidae,Ceratopogonidae sp. KMS9,QD0999C0,NWS001,8/05/2018,B,1
+Scatopsidae,Scatopsidae,QD159999,NWS004,9/05/2018,B,1
+Tabanidae,Tabanidae,QD239999,NWS001,8/05/2018,B,1
+Tabanidae,Tabanidae,QD239999,NWS002,8/05/2018,B,1
+Tabanidae,Tabanidae,QD239999,NWS003,9/05/2018,B,1
+Tabanidae,Tabanidae,QD239999,NWS006,10/05/2018,B,1
+Tabanidae,Tabanidae,QD239999,NWS006,10/05/2018,P,1
 Stratiomyidae,Stratiomyidae,QD249999,NWS001,8/05/2018,B,1
 Stratiomyidae,Stratiomyidae,QD249999,NWS001,8/05/2018,P,1
 Stratiomyidae,Stratiomyidae,QD249999,NWS002,8/05/2018,B,1
@@ -511,37 +350,198 @@ Stratiomyidae,Stratiomyidae,QD249999,NWS005,10/05/2018,P,1
 Stratiomyidae,Stratiomyidae,QD249999,NWS006,10/05/2018,B,1
 Stratiomyidae,Stratiomyidae,QD249999,NWS006,10/05/2018,P,1
 Syrphidae,Syrphidae,QD439999,NWS006,10/05/2018,B,1
-Tabanidae,Tabanidae,QD239999,NWS001,8/05/2018,B,1
-Tabanidae,Tabanidae,QD239999,NWS002,8/05/2018,B,1
-Tabanidae,Tabanidae,QD239999,NWS003,9/05/2018,B,1
-Tabanidae,Tabanidae,QD239999,NWS006,10/05/2018,B,1
-Tabanidae,Tabanidae,QD239999,NWS006,10/05/2018,P,1
-Chironomidae,Tanytarsus fuscithorax/semibarbitarsus,QDAH04D8,NWS001,8/05/2018,B,1
-Chironomidae,Tanytarsus fuscithorax/semibarbitarsus,QDAH04D8,NWS001,8/05/2018,P,1
-Chironomidae,Tanytarsus fuscithorax/semibarbitarsus,QDAH04D8,NWS002,8/05/2018,B,1
-Chironomidae,Tanytarsus fuscithorax/semibarbitarsus,QDAH04D8,NWS002,8/05/2018,P,1
-Testudinellidae,Testudinella insinuata,JF050202,NWS004,9/05/2018,P,1
-Testudinellidae,Testudinella patina,JF050201,NWS002,8/05/2018,P,1
-Testudinellidae,Testudinella patina,JF050201,NWS003,9/05/2018,P,1
-Testudinellidae,Testudinella patina,JF050201,NWS004,9/05/2018,P,1
-Testudinellidae,Testudinella patina,JF050201,NWS005,10/05/2018,P,1
+Ephydridae,Ephydridae,QD789999,NWS003,9/05/2018,P,1
+Ephydridae,Ephydridae,QD789999,NWS004,9/05/2018,B,1
+Ephydridae,Ephydridae,QD789999,NWS004,9/05/2018,P,1
+Muscidae,Muscidae,QD899999,NWS001,8/05/2018,B,1
+Muscidae,Muscidae,QD899999,NWS003,9/05/2018,P,1
+Chironomidae,Procladius paludicola,QDAE0803,NWS002,8/05/2018,B,1
+Chironomidae,Procladius paludicola,QDAE0803,NWS004,9/05/2018,B,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS002,8/05/2018,B,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS003,9/05/2018,B,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS003,9/05/2018,P,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS004,9/05/2018,B,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS004,9/05/2018,P,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS005,10/05/2018,B,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS005,10/05/2018,P,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS006,10/05/2018,B,1
+Chironomidae,Pentaneurini sp. P1,QDAE99A8,NWS006,10/05/2018,P,1
+Chironomidae,Tanytarsus fuscithorax_semibarbitarsus,QDAH04D8,NWS001,8/05/2018,B,1
+Chironomidae,Tanytarsus fuscithorax_semibarbitarsus,QDAH04D8,NWS001,8/05/2018,P,1
+Chironomidae,Tanytarsus fuscithorax_semibarbitarsus,QDAH04D8,NWS002,8/05/2018,B,1
+Chironomidae,Tanytarsus fuscithorax_semibarbitarsus,QDAH04D8,NWS002,8/05/2018,P,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS002,8/05/2018,B,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS002,8/05/2018,P,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS003,9/05/2018,B,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS003,9/05/2018,P,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS004,9/05/2018,B,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS004,9/05/2018,P,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS005,10/05/2018,B,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS005,10/05/2018,P,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS006,10/05/2018,B,1
+Chironomidae,Chironomus aff. Alternans,QDAI04A0,NWS006,10/05/2018,P,1
+Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS002,8/05/2018,B,1
+Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS003,9/05/2018,B,1
+Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS003,9/05/2018,P,1
+Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS004,9/05/2018,B,1
+Chironomidae,Kiefferulus intertinctus,QDAI0701,NWS005,10/05/2018,B,1
+Chironomidae,Polypedilum nubifer,QDAI0804,NWS001,8/05/2018,B,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS001,8/05/2018,B,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS001,8/05/2018,P,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS002,8/05/2018,B,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS002,8/05/2018,P,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS003,9/05/2018,B,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS003,9/05/2018,P,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS004,9/05/2018,B,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS004,9/05/2018,P,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS005,10/05/2018,B,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS005,10/05/2018,P,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS006,10/05/2018,B,1
+Chironomidae,Polypedilum nr. convexum,QDAI08B0,NWS006,10/05/2018,P,1
+Chironomidae,Parachironomus 'K1',QDAI25A2,NWS004,9/05/2018,P,1
+Baetidae,Cloeon sp.,QE020299,NWS001,8/05/2018,B,1
+Baetidae,Cloeon sp.,QE020299,NWS001,8/05/2018,P,1
+Baetidae,Cloeon sp.,QE020299,NWS002,8/05/2018,B,1
+Baetidae,Cloeon sp.,QE020299,NWS002,8/05/2018,P,1
+Baetidae,Cloeon sp.,QE020299,NWS003,9/05/2018,B,1
+Baetidae,Cloeon sp.,QE020299,NWS003,9/05/2018,P,1
+Baetidae,Cloeon sp.,QE020299,NWS004,9/05/2018,B,1
+Baetidae,Cloeon sp.,QE020299,NWS004,9/05/2018,P,1
+Baetidae,Cloeon sp.,QE020299,NWS005,10/05/2018,B,1
+Baetidae,Cloeon sp.,QE020299,NWS005,10/05/2018,P,1
+Baetidae,Cloeon sp.,QE020299,NWS006,10/05/2018,B,1
+Baetidae,Cloeon sp.,QE020299,NWS006,10/05/2018,P,1
+Mesoveliidae,Mesovelia vittigera,QH520102,NWS001,8/05/2018,B,1
+Mesoveliidae,Mesovelia vittigera,QH520102,NWS002,8/05/2018,B,1
+Mesoveliidae,Mesovelia vittigera,QH520102,NWS003,9/05/2018,P,1
+Mesoveliidae,Mesovelia vittigera,QH520102,NWS004,9/05/2018,B,1
+Mesoveliidae,Mesovelia vittigera,QH520102,NWS005,10/05/2018,B,1
+Mesoveliidae,Mesovelia vittigera,QH520102,NWS006,10/05/2018,B,1
+Mesoveliidae,Mesovelia sp.,QH520199,NWS001,8/05/2018,P,1
+Mesoveliidae,Mesovelia sp.,QH520199,NWS004,9/05/2018,P,1
+Mesoveliidae,Mesovelia sp.,QH520199,NWS006,10/05/2018,P,1
+Hydrometridae,Hydrometra sp.,QH540199,NWS005,10/05/2018,B,1
+Hydrometridae,Hydrometra sp.,QH540199,NWS005,10/05/2018,P,1
+Hydrometridae,Hydrometra sp.,QH540199,NWS006,10/05/2018,B,1
+Hydrometridae,Hydrometra sp.,QH540199,NWS006,10/05/2018,P,1
+Veliidae,Microvelia douglasi,QH560117,NWS003,9/05/2018,P,1
+Veliidae,Microvelia douglasi,QH560117,NWS005,10/05/2018,B,1
+Veliidae,Microvelia sp.,QH560199,NWS003,9/05/2018,B,1
+Gerridae,Limnogonus fossarum gilguy,QH570301,NWS002,8/05/2018,B,1
+Gerridae,Limnogonus fossarum gilguy,QH570301,NWS003,9/05/2018,B,1
+Gerridae,Limnogonus sp.,QH570399,NWS003,9/05/2018,P,1
+Gerridae,Limnogonus sp.,QH570399,NWS004,9/05/2018,B,1
+Gerridae,Gerridae,QH579999,NWS001,8/05/2018,B,1
+Gerridae,Gerridae,QH579999,NWS004,9/05/2018,P,1
+Gerridae,Gerridae,QH579999,NWS005,10/05/2018,B,1
+Gerridae,Gerridae,QH579999,NWS005,10/05/2018,P,1
+Gerridae,Gerridae,QH579999,NWS006,10/05/2018,B,1
+Gerridae,Gerridae,QH579999,NWS006,10/05/2018,P,1
+Nepidae,Ranatra diminuta,QH610202,NWS005,10/05/2018,B,1
+Nepidae,Ranatra sp.,QH610299,NWS002,8/05/2018,B,1
+Nepidae,Ranatra sp.,QH610299,NWS003,9/05/2018,B,1
+Nepidae,Ranatra sp.,QH610299,NWS003,9/05/2018,P,1
+Nepidae,Ranatra sp.,QH610299,NWS004,9/05/2018,B,1
+Nepidae,Ranatra sp.,QH610299,NWS004,9/05/2018,P,1
+Nepidae,Ranatra sp.,QH610299,NWS005,10/05/2018,P,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS001,8/05/2018,B,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS001,8/05/2018,P,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS002,8/05/2018,B,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS003,9/05/2018,B,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS003,9/05/2018,P,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS004,9/05/2018,B,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS004,9/05/2018,P,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS005,10/05/2018,B,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS005,10/05/2018,P,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS006,10/05/2018,B,1
+Belostomatidae,Diplonychus sp.,QH620299,NWS006,10/05/2018,P,1
+Corixidae,Micronecta virgata,QH650516,NWS001,8/05/2018,B,1
+Corixidae,Micronecta virgata,QH650516,NWS001,8/05/2018,P,1
+Corixidae,Micronecta virgata,QH650516,NWS002,8/05/2018,B,1
+Corixidae,Micronecta virgata,QH650516,NWS003,9/05/2018,B,1
+Corixidae,Micronecta virgata,QH650516,NWS003,9/05/2018,P,1
+Corixidae,Micronecta virgata,QH650516,NWS004,9/05/2018,B,1
+Corixidae,Micronecta virgata,QH650516,NWS004,9/05/2018,P,1
+Corixidae,Micronecta virgata,QH650516,NWS005,10/05/2018,B,1
+Corixidae,Micronecta virgata,QH650516,NWS006,10/05/2018,B,1
+Corixidae,Micronecta virgata,QH650516,NWS006,10/05/2018,P,1
+Corixidae,Micronecta paragoga,QH6505A4,NWS002,8/05/2018,B,1
+Corixidae,Micronecta paragoga,QH6505A4,NWS003,9/05/2018,B,1
+Corixidae,Micronecta paragoga,QH6505A4,NWS004,9/05/2018,B,1
+Naucoridae,Naucoris subopacus,QH660103,NWS004,9/05/2018,B,1
+Naucoridae,Naucoris subopacus,QH660103,NWS004,9/05/2018,P,1
+Naucoridae,Naucoris sp.,QH660199,NWS003,9/05/2018,B,1
+Notonectidae,Anisops nodulatus,QH670419,NWS003,9/05/2018,B,1
+Notonectidae,Anisops nodulatus,QH670419,NWS004,9/05/2018,B,1
+Notonectidae,Anisops nodulatus,QH670419,NWS006,10/05/2018,B,1
+Notonectidae,Anisops nodulatus,QH670419,NWS006,10/05/2018,P,1
+Notonectidae,Anisops semitus,QH670425,NWS001,8/05/2018,B,1
+Notonectidae,Anisops semitus,QH670425,NWS001,8/05/2018,P,1
+Notonectidae,Anisops semitus,QH670425,NWS004,9/05/2018,B,1
+Notonectidae,Anisops sp.,QH670499,NWS001,8/05/2018,B,1
+Notonectidae,Anisops sp.,QH670499,NWS002,8/05/2018,B,1
+Notonectidae,Anisops sp.,QH670499,NWS003,9/05/2018,P,1
+Notonectidae,Anisops sp.,QH670499,NWS004,9/05/2018,P,1
+Notonectidae,Anisops sp.,QH670499,NWS005,10/05/2018,B,1
+Notonectidae,Anisops sp.,QH670499,NWS005,10/05/2018,P,1
+Pleidae,Paraplea brunni,QH680101,NWS002,8/05/2018,B,1
+Pleidae,Paraplea brunni,QH680101,NWS003,9/05/2018,B,1
+Pleidae,Paraplea brunni,QH680101,NWS003,9/05/2018,P,1
+Pleidae,Paraplea brunni,QH680101,NWS004,9/05/2018,B,1
+Pleidae,Paraplea brunni,QH680101,NWS004,9/05/2018,P,1
+Pleidae,Paraplea brunni,QH680101,NWS005,10/05/2018,B,1
+Pleidae,Paraplea brunni,QH680101,NWS005,10/05/2018,P,1
+Pleidae,Paraplea brunni,QH680101,NWS006,10/05/2018,B,1
+Pleidae,Paraplea sp.,QH680199,NWS002,8/05/2018,P,1
+Pleidae,Paraplea sp.,QH680199,NWS006,10/05/2018,P,1
+Crambidae,Elophila sp.,QL0199B6,NWS003,9/05/2018,P,1
+Crambidae,Elophila sp.,QL0199B6,NWS004,9/05/2018,B,1
+Crambidae,Elophila sp.,QL0199B6,NWS004,9/05/2018,P,1
+Crambidae,Elophila sp.,QL0199B6,NWS005,10/05/2018,P,1
+Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS003,9/05/2018,B,1
+Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS003,9/05/2018,P,1
+Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS004,9/05/2018,B,1
+Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS005,10/05/2018,B,1
+Coenagrionidae,Ceriagrion aeruginosum,QO020801,NWS005,10/05/2018,P,1
+Coenagrionidae,Ischnura aurora aurora,QO021001,NWS001,8/05/2018,B,1
+Coenagrionidae,Ischnura aurora aurora,QO021001,NWS002,8/05/2018,B,1
+Coenagrionidae,Ischnura aurora aurora,QO021001,NWS003,9/05/2018,P,1
+Coenagrionidae,Ischnura aurora aurora,QO021001,NWS004,9/05/2018,B,1
+Coenagrionidae,Ischnura aurora aurora,QO021001,NWS004,9/05/2018,P,1
+Coenagrionidae,Ischnura aurora aurora,QO021001,NWS005,10/05/2018,B,1
+Coenagrionidae,Ischnura aurora aurora,QO021001,NWS006,10/05/2018,B,1
+Coenagrionidae,Ischnura aurora aurora,QO021001,NWS006,10/05/2018,P,1
+Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS001,8/05/2018,B,1
+Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS002,8/05/2018,B,1
+Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS003,9/05/2018,B,1
+Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS004,9/05/2018,B,1
+Coenagrionidae,Ischnura heterosticta heterosticta,QO021002,NWS004,9/05/2018,P,1
+Coenagrionidae,Ischnura sp.,QO021099,NWS001,8/05/2018,P,1
+Coenagrionidae,Pseudagrion microcephalum,QO021104,NWS002,8/05/2018,B,1
+Coenagrionidae,Pseudagrion microcephalum,QO021104,NWS004,9/05/2018,B,1
+Aeshnidae,Anax papuensis,QO121204,NWS001,8/05/2018,B,1
+Aeshnidae,Anax papuensis,QO121204,NWS002,8/05/2018,B,1
+Aeshnidae,Anax papuensis,QO121204,NWS003,9/05/2018,B,1
+Aeshnidae,Anax papuensis,QO121204,NWS004,9/05/2018,B,1
+Aeshnidae,Anax papuensis,QO121204,NWS004,9/05/2018,P,1
+Aeshnidae,Aeshnidae,QO129999,NWS002,8/05/2018,P,1
+Aeshnidae,Aeshnidae,QO129999,NWS003,9/05/2018,P,1
+Libellulidae,Crocothemis nigrifrons,QO170601,NWS004,9/05/2018,B,1
+Libellulidae,Diplacodes bipunctata,QO170701,NWS001,8/05/2018,B,1
+Libellulidae,Diplacodes bipunctata,QO170701,NWS001,8/05/2018,P,1
+Libellulidae,Diplacodes bipunctata,QO170701,NWS005,10/05/2018,B,1
+Libellulidae,Diplacodes bipunctata,QO170701,NWS006,10/05/2018,B,1
+Libellulidae,Orthetrum caledonicum,QO171601,NWS001,8/05/2018,B,1
+Libellulidae,Orthetrum caledonicum,QO171601,NWS002,8/05/2018,B,1
+Libellulidae,Orthetrum caledonicum,QO171601,NWS003,9/05/2018,B,1
+Libellulidae,Orthetrum caledonicum,QO171601,NWS004,9/05/2018,B,1
 Libellulidae,Tholymis tillarga,QO172301,NWS002,8/05/2018,B,1
 Libellulidae,Tholymis tillarga,QO172301,NWS003,9/05/2018,B,1
 Libellulidae,Tholymis tillarga,QO172301,NWS004,9/05/2018,B,1
-Libellulidae,Tramea sp.,QO172899,NWS001,8/05/2018,B,1
-Libellulidae,Tramea sp.,QO172899,NWS002,8/05/2018,B,1
-Libellulidae,Tramea stenoloba/loewii,QO1728A0,NWS005,10/05/2018,B,1
-Libellulidae,Tramea stenoloba/loewii,QO1728A0,NWS006,10/05/2018,B,1
-Euchlanidae,Tripleuchlanis plicata,JP060301,NWS003,9/05/2018,P,1
--,Trombidioidea,MM9999A6,NWS004,9/05/2018,B,1
--,Turbellaria,IF999999,NWS002,8/05/2018,P,1
--,Turbellaria,IF999999,NWS004,9/05/2018,P,1
--,Turbellaria,IF999999,NWS005,10/05/2018,P,1
-Culicidae,Uranotaenia albescens,QD071401,NWS005,10/05/2018,B,1
-Culicidae,Uranotaenia albescens,QD071401,NWS006,10/05/2018,B,1
-Culicidae,Uranotaenia albescens,QD071401,NWS006,10/05/2018,P,1
-Darwinulidae,Vestalenula marmonieri,OH050301,NWS002,8/05/2018,B,1
-Darwinulidae,Vestalenula marmonieri,OH050301,NWS004,9/05/2018,B,1
-Darwinulidae,Vestalenula marmonieri,OH050301,NWS006,10/05/2018,B,1
 Libellulidae,Zyxomma elgneri,QO172601,NWS004,9/05/2018,B,1
 Libellulidae,Zyxomma elgneri,QO172601,NWS005,10/05/2018,B,1
+Libellulidae,Tramea sp.,QO172899,NWS001,8/05/2018,B,1
+Libellulidae,Tramea sp.,QO172899,NWS002,8/05/2018,B,1
+Libellulidae,Tramea stenoloba_loewii,QO1728A0,NWS005,10/05/2018,B,1
+Libellulidae,Tramea stenoloba_loewii,QO1728A0,NWS006,10/05/2018,B,1
+Libellulidae,Libellulidae,QO179999,NWS003,9/05/2018,B,1
