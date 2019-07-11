@@ -31,7 +31,7 @@ options(scipen=999)
 ```
 
 ```{r results="hide", warning=FALSE, message=FALSE}
-Packages <- c("vegan","cluster","data.table", "ggrepel", "ggplot2", "stringr", "reshape2", "knitr", "simba", "zoo", "car")
+Packages <- c("vegan","cluster","reshape2")
 lapply(Packages, library, character.only = TRUE)
 #source("./functions/bio_env_ext.R") #The Bio_env and bv_step_ext routines below comes from http://menugget.blogspot.com.au/2011/06/clarke-and-ainsworths-bioenv-and-bvstep.html
 ```
@@ -43,9 +43,8 @@ set.seed(1234)
 #Ionic composition analysis
 ```{r}
 #load data files
-MgL.data <- read.csv("FVS ionic compositions.csv", row.names=1)
+MgL.data <- read.csv("./raw_data/Nim_ionic_comp.csv", row.names=1)
 MgL.data <- MgL.data[, 1:8]
-
 Meq.data <- MgL.data
 Meq.data$Na <- Meq.data$Na*0.0435
 Meq.data$Ca <- Meq.data$Ca*0.0499
@@ -121,6 +120,9 @@ invert.matrix.Pred$QH579999_Gerridae <- NULL #delete Gerridae
 #merge Pleidae with P.brunni and delete P. brunni
 invert.matrix.Pred$QH680199_Paraplea_sp. <- pmax(invert.matrix.Pred$QH680199_Paraplea_sp., invert.matrix.Pred$QH680101_Paraplea_brunni)
 invert.matrix.Pred$QH680101_Paraplea_brunni <- NULL #delete Gerridae
+#merge Spercheus sp. with Spercheus platycephalus and delete Spercheus sp.
+invert.matrix.Pred$QC110399_Spercheus_sp. <- pmax(invert.matrix.Pred$QC110399_Spercheus_sp., invert.matrix.Pred$QCAR0103_Spercheus_platycephalus)
+invert.matrix.Pred$QC110399_Spercheus_sp. <- NULL #delete Spercheus sp.
 
 #BENTHIC
 #specify rows to remove - creating new data file
@@ -148,14 +150,20 @@ invert.matrix.Bred$QH560117_Microvelia_douglasi <- NULL #delete Microvelia dougl
 #merge Enochrus sp. with E. deserticola
 invert.matrix.Bred$QC111199_Enochrus_sp. <- pmax(invert.matrix.Bred$QC111199_Enochrus_sp., invert.matrix.Bred$QC111105_Enochrus_deserticola)
 invert.matrix.Bred$QC111105_Enochrus_deserticola <- NULL #delete Enochrus deserticola
+#merge Spercheus sp. with Spercheus platycephalus and delete Spercheus sp.
+invert.matrix.Bred$QC110399_Spercheus_sp. <- pmax(invert.matrix.Bred$QC110399_Spercheus_sp., invert.matrix.Bred$QCAR0103_Spercheus_platycephalus)
+invert.matrix.Bred$QC110399_Spercheus_sp. <- NULL #delete Spercheus sp.
+
 ```
 
 #create dissimilarity matrices
 ```{r}
 invert.sim.P <- vegdist(invert.matrix.P, method="bray")
 invert.sim.P
+mean(invert.sim.P)
 invert.sim.B <- vegdist(invert.matrix.B, method="bray")
 invert.sim.B
+mean(invert.sim.B)
 ```
 
 #cluster analyses
@@ -165,7 +173,6 @@ plot(invert.clus.P, title = NULL)
 invert.clus.B <- agnes(invert.sim.B, metric = "bray", method = "average")
 plot(invert.clus.B)
 ```
-
 
 ```{r}
 invert.spec.P <-specaccum(t(invert.matrix.P), method="rarefaction")
